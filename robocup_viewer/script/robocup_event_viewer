@@ -1,0 +1,10 @@
+#!/usr/bin/env python
+
+import sys
+
+from rqt_gui.main import Main
+from robocup_viewer import robocup_event_viewer_Plugin
+
+main = Main()
+sys.exit(main.main(sys.argv, standalone='robocup_event_viewer',
+plugin_argument_provider=robocup_event_viewer_Plugin.add_arguments))

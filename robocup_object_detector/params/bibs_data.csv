@@ -1,0 +1,4 @@
+name,mim_bibs_area,h_th_low(0~1),h_th_up(0~1),friend,enemy
+joitech_blue,200,0.51,0.693,T,F
+joitech_pink,200,0.81,0.934,F,T
+camellia_dragons_blue,200,0.56,0.748,F,F

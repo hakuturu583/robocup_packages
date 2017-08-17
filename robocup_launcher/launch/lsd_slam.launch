@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch>
+
+  <arg name="nao_ip" value="$(optenv NAO_IP 127.0.0.1)" />
+  <arg name="roscore_ip" value="$(optenv ROSCORE_IP 127.0.0.1)" />
+  <param name="nao_ip" value="$(arg nao_ip)" type="str"/>
+  <param name="roscore_ip" value="$(arg roscore_ip)" type="str"/>
+  <param name="robot_description" textfile="$(find nao_description)/urdf/naoV40_generated_urdf/nao.urdf" />
+
+  <node name="lsd_slam_core" pkg="lsd_slam_core" type="live_slam"
+    args="/image:=/nao_robot/camera/top/camera/image_raw /camera_info:=/nao_robot/camera/top/camera/camera_info" output="screen" respawn="true">
+  </node>
+
+  <node pkg="tf" type="static_transform_publisher" name="tf_publisher_odom_world" args="0 0 0 0 0 0 odom world 100" />
+
+  <node name="rviz" pkg="rviz" type="rviz" args="" output="screen" respawn="true">
+  </node>
+
+  <include file="$(find robocup_launcher)/launch/naoqi_systems.launch">
+    <arg name="nao_ip" value="$(arg nao_ip)" />
+  </include>
+
+  <include file="$(find robocup_action_control)/launch/action_controller.launch">
+  </include>
+
+  <include file="$(find robocup_action_control)/launch/flight_stick.launch">
+  </include>
+
+</launch>

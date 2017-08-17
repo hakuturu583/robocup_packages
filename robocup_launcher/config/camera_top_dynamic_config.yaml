@@ -1,0 +1,35 @@
+!!python/object/new:dynamic_reconfigure.encoding.Config
+dictitems:
+  green_h_th_low: 41.4
+  green_h_th_up: 19.8
+  green_s_th: 81.6
+  green_v_th: 58.65
+  groups: !!python/object/new:dynamic_reconfigure.encoding.Config
+    dictitems:
+      green_h_th_low: 41.4
+      green_h_th_up: 19.8
+      green_s_th: 81.6
+      green_v_th: 58.65
+      groups: !!python/object/new:dynamic_reconfigure.encoding.Config
+        state: []
+      id: 0
+      is_pointcloud_filter_working: true
+      leaf_size: 0.02
+      min_field_area: 400.0
+      name: Default
+      parameters: !!python/object/new:dynamic_reconfigure.encoding.Config
+        state: []
+      parent: 0
+      side_length: 2.0
+      state: true
+      type: ''
+      view_angle_height: 64.8
+      view_angle_width: 36.0
+    state: []
+  is_pointcloud_filter_working: true
+  leaf_size: 0.02
+  min_field_area: 400.0
+  side_length: 2.0
+  view_angle_height: 64.8
+  view_angle_width: 36.0
+state: []

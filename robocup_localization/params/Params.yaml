@@ -1,0 +1,53 @@
+!!python/object/new:dynamic_reconfigure.encoding.Config
+dictitems:
+  base_footprint_frame: base_footprint
+  camera_field_of_view_h: 55.0
+  camera_field_of_view_w: 45.0
+  camera_frame: CameraTop_frame
+  fixed_frame: odom
+  groups: !!python/object/new:dynamic_reconfigure.encoding.Config
+    dictitems:
+      base_footprint_frame: base_footprint
+      camera_field_of_view_h: 55.0
+      camera_field_of_view_w: 45.0
+      camera_frame: CameraTop_frame
+      fixed_frame: odom
+      groups: !!python/object/new:dynamic_reconfigure.encoding.Config
+        state: []
+      h_th_low: 16.2
+      h_th_up: 102.6
+      id: 0
+      maxLineGap_houghlinesP: 10
+      max_field_area: 100000.0
+      max_line_detection_area: 3.0
+      max_line_length: 3.0
+      max_object_area: 10000
+      minLineLength_houghlinesP: 20
+      min_field_area: 500.0
+      min_object_area: 200
+      name: Default
+      parameters: !!python/object/new:dynamic_reconfigure.encoding.Config
+        state: []
+      parent: 0
+      s_th: 81.6
+      state: true
+      th_hu_moments_center_circle: 5.0
+      threshold_houghlinesP: 30
+      type: ''
+      v_th: 117.3
+    state: []
+  h_th_low: 16.2
+  h_th_up: 102.6
+  maxLineGap_houghlinesP: 10
+  max_field_area: 100000.0
+  max_line_detection_area: 3.0
+  max_line_length: 3.0
+  max_object_area: 10000
+  minLineLength_houghlinesP: 20
+  min_field_area: 500.0
+  min_object_area: 200
+  s_th: 81.6
+  th_hu_moments_center_circle: 5.0
+  threshold_houghlinesP: 30
+  v_th: 117.3
+state: []

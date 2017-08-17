@@ -1,0 +1,308 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<?xml-stylesheet type='text/xsl' href='image_metadata_stylesheet.xsl'?>
+<dataset>
+<name>imglab dataset</name>
+<comment>Created by imglab tool.</comment>
+<images>
+  <image file='frame0000.jpg'>
+  </image>
+  <image file='frame0001.jpg'>
+  </image>
+  <image file='frame0002.jpg'>
+  </image>
+  <image file='frame0003.jpg'>
+  </image>
+  <image file='frame0004.jpg'>
+  </image>
+  <image file='frame0005.jpg'>
+  </image>
+  <image file='frame0006.jpg'>
+  </image>
+  <image file='frame0007.jpg'>
+  </image>
+  <image file='frame0008.jpg'>
+  </image>
+  <image file='frame0009.jpg'>
+  </image>
+  <image file='frame0010.jpg'>
+  </image>
+  <image file='frame0011.jpg'>
+  </image>
+  <image file='frame0012.jpg'>
+  </image>
+  <image file='frame0013.jpg'>
+  </image>
+  <image file='frame0014.jpg'>
+  </image>
+  <image file='frame0015.jpg'>
+  </image>
+  <image file='frame0016.jpg'>
+  </image>
+  <image file='frame0017.jpg'>
+  </image>
+  <image file='frame0018.jpg'>
+  </image>
+  <image file='frame0019.jpg'>
+  </image>
+  <image file='frame0020.jpg'>
+  </image>
+  <image file='frame0021.jpg'>
+  </image>
+  <image file='frame0022.jpg'>
+  </image>
+  <image file='frame0023.jpg'>
+  </image>
+  <image file='frame0024.jpg'>
+  </image>
+  <image file='frame0025.jpg'>
+  </image>
+  <image file='frame0026.jpg'>
+  </image>
+  <image file='frame0027.jpg'>
+  </image>
+  <image file='frame0028.jpg'>
+  </image>
+  <image file='frame0029.jpg'>
+  </image>
+  <image file='frame0030.jpg'>
+  </image>
+  <image file='frame0031.jpg'>
+  </image>
+  <image file='frame0032.jpg'>
+  </image>
+  <image file='frame0033.jpg'>
+  </image>
+  <image file='frame0034.jpg'>
+  </image>
+  <image file='frame0035.jpg'>
+  </image>
+  <image file='frame0036.jpg'>
+  </image>
+  <image file='frame0037.jpg'>
+  </image>
+  <image file='frame0038.jpg'>
+  </image>
+  <image file='frame0039.jpg'>
+  </image>
+  <image file='frame0040.jpg'>
+  </image>
+  <image file='frame0041.jpg'>
+  </image>
+  <image file='frame0042.jpg'>
+  </image>
+  <image file='frame0043.jpg'>
+  </image>
+  <image file='frame0044.jpg'>
+  </image>
+  <image file='frame0045.jpg'>
+  </image>
+  <image file='frame0046.jpg'>
+  </image>
+  <image file='frame0047.jpg'>
+  </image>
+  <image file='frame0048.jpg'>
+  </image>
+  <image file='frame0049.jpg'>
+  </image>
+  <image file='frame0050.jpg'>
+    <box top='59' left='91' width='39' height='34'/>
+  </image>
+  <image file='frame0051.jpg'>
+    <box top='58' left='100' width='42' height='38'/>
+  </image>
+  <image file='frame0052.jpg'>
+    <box top='58' left='97' width='43' height='35'/>
+  </image>
+  <image file='frame0053.jpg'>
+    <box top='59' left='94' width='44' height='33'/>
+  </image>
+  <image file='frame0054.jpg'>
+  </image>
+  <image file='frame0055.jpg'>
+    <box top='60' left='100' width='44' height='36'/>
+  </image>
+  <image file='frame0056.jpg'>
+    <box top='59' left='100' width='46' height='37'/>
+  </image>
+  <image file='frame0057.jpg'>
+  </image>
+  <image file='frame0058.jpg'>
+    <box top='56' left='88' width='46' height='37'/>
+  </image>
+  <image file='frame0059.jpg'>
+  </image>
+  <image file='frame0060.jpg'>
+    <box top='54' left='96' width='42' height='39'/>
+  </image>
+  <image file='frame0061.jpg'>
+    <box top='54' left='91' width='46' height='37'/>
+  </image>
+  <image file='frame0062.jpg'>
+  </image>
+  <image file='frame0063.jpg'>
+  </image>
+  <image file='frame0064.jpg'>
+    <box top='53' left='90' width='46' height='40'/>
+  </image>
+  <image file='frame0065.jpg'>
+    <box top='53' left='91' width='46' height='41'/>
+  </image>
+  <image file='frame0066.jpg'>
+  </image>
+  <image file='frame0067.jpg'>
+  </image>
+  <image file='frame0068.jpg'>
+  </image>
+  <image file='frame0069.jpg'>
+    <box top='57' left='85' width='46' height='39'/>
+  </image>
+  <image file='frame0070.jpg'>
+  </image>
+  <image file='frame0071.jpg'>
+  </image>
+  <image file='frame0072.jpg'>
+  </image>
+  <image file='frame0073.jpg'>
+  </image>
+  <image file='frame0074.jpg'>
+    <box top='47' left='83' width='45' height='40'/>
+  </image>
+  <image file='frame0075.jpg'>
+  </image>
+  <image file='frame0076.jpg'>
+  </image>
+  <image file='frame0077.jpg'>
+  </image>
+  <image file='frame0078.jpg'>
+  </image>
+  <image file='frame0079.jpg'>
+  </image>
+  <image file='frame0080.jpg'>
+  </image>
+  <image file='frame0081.jpg'>
+    <box top='55' left='74' width='50' height='39'/>
+  </image>
+  <image file='frame0082.jpg'>
+  </image>
+  <image file='frame0083.jpg'>
+  </image>
+  <image file='frame0084.jpg'>
+  </image>
+  <image file='frame0085.jpg'>
+    <box top='50' left='71' width='48' height='41'/>
+  </image>
+  <image file='frame0086.jpg'>
+  </image>
+  <image file='frame0087.jpg'>
+  </image>
+  <image file='frame0088.jpg'>
+  </image>
+  <image file='frame0089.jpg'>
+  </image>
+  <image file='frame0090.jpg'>
+  </image>
+  <image file='frame0091.jpg'>
+  </image>
+  <image file='frame0092.jpg'>
+  </image>
+  <image file='frame0093.jpg'>
+  </image>
+  <image file='frame0094.jpg'>
+    <box top='41' left='65' width='50' height='47'/>
+  </image>
+  <image file='frame0095.jpg'>
+  </image>
+  <image file='frame0096.jpg'>
+  </image>
+  <image file='frame0097.jpg'>
+  </image>
+  <image file='frame0098.jpg'>
+  </image>
+  <image file='frame0099.jpg'>
+  </image>
+  <image file='frame0100.jpg'>
+  </image>
+  <image file='frame0101.jpg'>
+  </image>
+  <image file='frame0102.jpg'>
+  </image>
+  <image file='frame0103.jpg'>
+  </image>
+  <image file='frame0104.jpg'>
+  </image>
+  <image file='frame0105.jpg'>
+  </image>
+  <image file='frame0106.jpg'>
+  </image>
+  <image file='frame0107.jpg'>
+  </image>
+  <image file='frame0108.jpg'>
+  </image>
+  <image file='frame0109.jpg'>
+  </image>
+  <image file='frame0110.jpg'>
+  </image>
+  <image file='frame0111.jpg'>
+  </image>
+  <image file='frame0112.jpg'>
+  </image>
+  <image file='frame0113.jpg'>
+  </image>
+  <image file='frame0114.jpg'>
+  </image>
+  <image file='frame0115.jpg'>
+  </image>
+  <image file='frame0116.jpg'>
+  </image>
+  <image file='frame0117.jpg'>
+  </image>
+  <image file='frame0118.jpg'>
+  </image>
+  <image file='frame0119.jpg'>
+  </image>
+  <image file='frame0120.jpg'>
+  </image>
+  <image file='frame0121.jpg'>
+  </image>
+  <image file='frame0122.jpg'>
+  </image>
+  <image file='frame0123.jpg'>
+  </image>
+  <image file='frame0124.jpg'>
+  </image>
+  <image file='frame0125.jpg'>
+  </image>
+  <image file='frame0126.jpg'>
+  </image>
+  <image file='frame0127.jpg'>
+  </image>
+  <image file='frame0128.jpg'>
+  </image>
+  <image file='frame0129.jpg'>
+  </image>
+  <image file='frame0130.jpg'>
+  </image>
+  <image file='frame0131.jpg'>
+  </image>
+  <image file='frame0132.jpg'>
+  </image>
+  <image file='frame0133.jpg'>
+  </image>
+  <image file='frame0134.jpg'>
+  </image>
+  <image file='frame0135.jpg'>
+  </image>
+  <image file='frame0136.jpg'>
+  </image>
+  <image file='frame0137.jpg'>
+  </image>
+  <image file='frame0138.jpg'>
+  </image>
+  <image file='frame0139.jpg'>
+  </image>
+  <image file='frame0140.jpg'>
+  </image>
+  <image file='frame0141.jpg'>
+  </image>
+</images>
+</dataset>

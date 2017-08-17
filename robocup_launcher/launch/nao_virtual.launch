@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch>
+<!--
+  <include file="$(find nao_gazebo_plugin)/launch/nao_gazebo_plugin_H25.launch"/>
+-->
+  <include file="$(find nao_gazebo_plugin)/launch/nao_gazebo.launch"/>
+  <include file="$(find robocup_action_control)/launch/moveit_planner.launch"/>
+</launch>

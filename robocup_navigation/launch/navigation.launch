@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch>
+  <group ns="robocup_navigation">
+
+    <node name="navigation_map_server" pkg="robocup_navigation" type="navigation_map_server_node" args="" output="screen" respawn="true">
+      <remap from="/robocup_navigation/navigation_map_server/CameraBottom/object" to="/robocup_object_detector/object_detector_bottom/object" />
+      <remap from="/robocup_navigation/navigation_map_server/CameraTop/object" to="/robocup_object_detector/object_detector_top/object" />
+    </node>
+  </group>
+
+<!--
+    <node name="dynamic_reconfigure_robocup_navigation" pkg="dynamic_reconfigure" type="dynparam" args="load /robocup_navigation/local_map_server $(find robocup_navigation)/params/local_map_server_params.yaml" output="screen" respawn="false">
+    </node>
+
+    <node name="footstep_navigation" pkg="footstep_planner" type="footstep_planner_node" >
+      <rosparam file="$(find robocup_navigation)/params/planning_params.yaml" command="load" />
+      <rosparam file="$(find robocup_navigation)/params/navigation_params.yaml" command="load" />
+      <rosparam file="$(find robocup_navigation)/params/planning_params_nao.yaml" command="load" />
+      <rosparam file="$(find robocup_navigation)/params/footsteps_nao_navigation.yaml" command="load" />
+      <remap from="/robocup_navigation/map" to="/robocup_navigation/navigation_map" />
+      <remap from="/robocup_navigation/move_base_simple/goal" to="/move_base_simple/goal" />
+      <remap from="/robocup_navigation/initialpose" to="/initialpose" />
+      <remap from="/robocup_navigation/goal" to="/move_base_simple/goal" />
+    </node>
+
+    <node name="nao_path_follower" pkg="nao_path_follower" type="nao_path_follower" args="" output="screen" respawn="true">
+      <remap from="/robocup_navigation/foot_contact" to="/nao_robot/foot_contact" />
+      <remap from="/robocup_navigation/cmd_pose" to="/cmd_pose" />
+    </node>
+
+    <node name="nao_path_follower_client" pkg="robocup_navigation" type="nao_path_follower_client.py" args="" output="screen" respawn="true">
+      <remap from="/robocup_navigation/target_path" to="/robocup_navigation/footstep_navigation/path" />
+    </node>
+
+    <node name="move_base" pkg="move_base" type="move_base" args="" output="screen" respawn="true">
+      <remap from="/robocup_navigation/move_base_simple/goal" to="/move_base_simple/goal"/>
+      <remap from="/robocup_navigation/odom" to="/odom" />
+      <remap from="/robocup_navigation/move_base/local_costmap/costmap" to="/robocup_navigation/local_map_server/map" />
+    </node>
+
+    <node name="move_base" pkg="move_base" type="move_base" args="" output="screen" respawn="true">
+      <remap from="/robocup_navigation/move_base_simple/goal" to="/move_base_simple/goal"/>
+    </node>
+-->
+
+</launch>

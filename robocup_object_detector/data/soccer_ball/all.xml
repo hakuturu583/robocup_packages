@@ -1,0 +1,130 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<?xml-stylesheet type='text/xsl' href='image_metadata_stylesheet.xsl'?>
+<dataset>
+<name>imglab dataset</name>
+<comment>Created by imglab tool.</comment>
+<images>
+  <image file='frame0000.jpg'>
+  </image>
+  <image file='frame0001.jpg'>
+  </image>
+  <image file='frame0002.jpg'>
+  </image>
+  <image file='frame0003.jpg'>
+  </image>
+  <image file='frame0004.jpg'>
+  </image>
+  <image file='frame0005.jpg'>
+  </image>
+  <image file='frame0006.jpg'>
+  </image>
+  <image file='frame0007.jpg'>
+  </image>
+  <image file='frame0008.jpg'>
+  </image>
+  <image file='frame0009.jpg'>
+  </image>
+  <image file='frame0010.jpg'>
+  </image>
+  <image file='frame0011.jpg'>
+  </image>
+  <image file='frame0012.jpg'>
+  </image>
+  <image file='frame0013.jpg'>
+  </image>
+  <image file='frame0014.jpg'>
+  </image>
+  <image file='frame0015.jpg'>
+  </image>
+  <image file='frame0016.jpg'>
+  </image>
+  <image file='frame0017.jpg'>
+  </image>
+  <image file='frame0018.jpg'>
+  </image>
+  <image file='frame0019.jpg'>
+  </image>
+  <image file='frame0020.jpg'>
+  </image>
+  <image file='frame0021.jpg'>
+  </image>
+  <image file='frame0022.jpg'>
+  </image>
+  <image file='frame0023.jpg'>
+  </image>
+  <image file='frame0024.jpg'>
+  </image>
+  <image file='frame0025.jpg'>
+  </image>
+  <image file='frame0026.jpg'>
+  </image>
+  <image file='frame0027.jpg'>
+  </image>
+  <image file='frame0028.jpg'>
+  </image>
+  <image file='frame0029.jpg'>
+  </image>
+  <image file='frame0030.jpg'>
+  </image>
+  <image file='frame0031.jpg'>
+  </image>
+  <image file='frame0032.jpg'>
+  </image>
+  <image file='frame0033.jpg'>
+  </image>
+  <image file='frame0034.jpg'>
+  </image>
+  <image file='frame0035.jpg'>
+  </image>
+  <image file='frame0036.jpg'>
+  </image>
+  <image file='frame0037.jpg'>
+  </image>
+  <image file='frame0038.jpg'>
+  </image>
+  <image file='frame0039.jpg'>
+  </image>
+  <image file='frame0040.jpg'>
+  </image>
+  <image file='frame0041.jpg'>
+  </image>
+  <image file='frame0042.jpg'>
+  </image>
+  <image file='frame0043.jpg'>
+  </image>
+  <image file='frame0044.jpg'>
+  </image>
+  <image file='frame0045.jpg'>
+  </image>
+  <image file='frame0046.jpg'>
+  </image>
+  <image file='frame0047.jpg'>
+  </image>
+  <image file='frame0048.jpg'>
+  </image>
+  <image file='frame0049.jpg'>
+  </image>
+  <image file='frame0050.jpg'>
+  </image>
+  <image file='frame0051.jpg'>
+  </image>
+  <image file='frame0052.jpg'>
+  </image>
+  <image file='frame0053.jpg'>
+  </image>
+  <image file='frame0054.jpg'>
+  </image>
+  <image file='frame0055.jpg'>
+  </image>
+  <image file='frame0056.jpg'>
+  </image>
+  <image file='frame0057.jpg'>
+  </image>
+  <image file='frame0058.jpg'>
+  </image>
+  <image file='frame0059.jpg'>
+  </image>
+  <image file='frame0060.jpg'>
+  </image>
+</images>
+</dataset>

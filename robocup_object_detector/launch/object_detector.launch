@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch>
+  <group ns = "robocup_object_detector">
+    <node name="object_detector_top" pkg="robocup_object_detector" type="object_detector.py" args="" output="screen" respawn="true">
+      <remap from="~/image_raw" to="/nao_robot/camera/top/camera/image_raw" />
+      <param name="/camera_frame" value="CameraTop_frame" type="str"/>
+    </node>
+
+    <node name="object_detector_bottom" pkg="robocup_object_detector" type="object_detector.py" args="" output="screen" respawn="true">
+      <remap from="~/image_raw" to="/nao_robot/camera/bottom/camera/image_raw" />
+      <param name="/camera_frame" value="CameraBottom_frame" type="str"/>
+    </node>
+
+    <node name="dynamic_reconfigur_obj_detector_top" pkg="dynamic_reconfigure" type="dynparam" args="load /object_detector_top $(find robocup_object_detector)/params/robocup_object_detector_params_nao_top.yaml" output="screen" respawn="false">
+    </node>
+
+    <node name="dynamic_reconfigur_obj_detector_bottom" pkg="dynamic_reconfigure" type="dynparam" args="load /object_detector_bottom $(find robocup_object_detector)/params/robocup_object_detector_params_nao_bottom.yaml" output="screen" respawn="false">
+    </node>
+  </group>
+</launch>

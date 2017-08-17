@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch>
+  <node name="joy" pkg="joy" type="joy_node" args="" output="screen" respawn="true">
+  </node>
+
+  <node name="flight_controller_to_cmd_vel" pkg="robocup_action_control" type="flight_controller_to_cmd_vel.py" args="" output="screen" respawn="true">
+  </node>
+</launch>

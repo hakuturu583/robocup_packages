@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch>
+  <group ns="robocup_state_manager">
+  <!--
+    <node name="robocup_state_manager" pkg="robocup_state_manager" type="robocup_state_machine.py" args="" output="screen" respawn="true">
+    </node>
+  -->
+
+    <node name="robocup_diagnostics" pkg="robocup_state_manager" type="robocup_diagnostics.py" args="" output="screen" respawn="true">
+      <remap from="/robocup_state_manager/event" to="/event" />
+    </node>
+  </group>
+</launch>

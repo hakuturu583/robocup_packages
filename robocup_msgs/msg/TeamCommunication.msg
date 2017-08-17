@@ -1,0 +1,5 @@
+uint8 team_number
+uint8 player_number
+robocup_msgs/RobotLocation robot_location
+robocup_msgs/PlayingState playing_state
+robocup_msgs/PenaltyInfo penalty_info

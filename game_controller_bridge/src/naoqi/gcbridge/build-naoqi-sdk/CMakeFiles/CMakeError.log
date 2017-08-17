@@ -1,0 +1,499 @@
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/bin/c++ 
+Build flags: {CMAKE_CXX_FLAGS};-DOE_CROSS_BUILD;-Wl,--allow-shlib-undefined;-DOE_CROSS_BUILD;-Wl,--allow-shlib-undefined
+Id flags: 
+
+The output was:
+1
+c++: error: {CMAKE_CXX_FLAGS}: そのようなファイルやディレクトリはありません
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/bin/c++ 
+Build flags: {CMAKE_CXX_FLAGS};-DOE_CROSS_BUILD;-Wl,--allow-shlib-undefined;-DOE_CROSS_BUILD;-Wl,--allow-shlib-undefined
+Id flags: -c
+
+The output was:
+1
+c++: error: {CMAKE_CXX_FLAGS}: そのようなファイルやディレクトリはありません
+
+
+Checking whether the CXX compiler is IAR using "" did not match "IAR .+ Compiler":
+c++: error: {CMAKE_CXX_FLAGS}: そのようなファイルやディレクトリはありません
+Determining if the CXX compiler works failed with the following output:
+Change Dir: /home/nao/catkin_ws/src/robocup_packages/game_controller_bridge/src/naoqi/gcbridge/build-naoqi-sdk/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1159620183/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1159620183.dir/build.make CMakeFiles/cmTryCompileExec1159620183.dir/build
+make[1]: ディレクトリ `/home/nao/catkin_ws/src/robocup_packages/game_controller_bridge/src/naoqi/gcbridge/build-naoqi-sdk/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/nao/catkin_ws/src/robocup_packages/game_controller_bridge/src/naoqi/gcbridge/build-naoqi-sdk/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1159620183.dir/testCXXCompiler.cxx.o
+/usr/bin/c++    {CMAKE_CXX_FLAGS} -DOE_CROSS_BUILD -Wl,--allow-shlib-undefined -DOE_CROSS_BUILD -Wl,--allow-shlib-undefined    -o CMakeFiles/cmTryCompileExec1159620183.dir/testCXXCompiler.cxx.o -c /home/nao/catkin_ws/src/robocup_packages/game_controller_bridge/src/naoqi/gcbridge/build-naoqi-sdk/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+c++: error: {CMAKE_CXX_FLAGS}: そのようなファイルやディレクトリはありません
+make[1]: ディレクトリ `/home/nao/catkin_ws/src/robocup_packages/game_controller_bridge/src/naoqi/gcbridge/build-naoqi-sdk/CMakeFiles/CMakeTmp' から出ます
+make[1]: *** [CMakeFiles/cmTryCompileExec1159620183.dir/testCXXCompiler.cxx.o] エラー 1
+make: *** [cmTryCompileExec1159620183/fast] エラー 2
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/bin/c++ 
+Build flags: {CMAKE_CXX_FLAGS};-DOE_CROSS_BUILD;-Wl,--allow-shlib-undefined;-DOE_CROSS_BUILD;-Wl,--allow-shlib-undefined
+Id flags: 
+
+The output was:
+1
+c++: error: {CMAKE_CXX_FLAGS}: そのようなファイルやディレクトリはありません
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/bin/c++ 
+Build flags: {CMAKE_CXX_FLAGS};-DOE_CROSS_BUILD;-Wl,--allow-shlib-undefined;-DOE_CROSS_BUILD;-Wl,--allow-shlib-undefined
+Id flags: -c
+
+The output was:
+1
+c++: error: {CMAKE_CXX_FLAGS}: そのようなファイルやディレクトリはありません
+
+
+Checking whether the CXX compiler is IAR using "" did not match "IAR .+ Compiler":
+c++: error: {CMAKE_CXX_FLAGS}: そのようなファイルやディレクトリはありません
+Determining if the CXX compiler works failed with the following output:
+Change Dir: /home/nao/catkin_ws/src/robocup_packages/game_controller_bridge/src/naoqi/gcbridge/build-naoqi-sdk/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec159833148/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec159833148.dir/build.make CMakeFiles/cmTryCompileExec159833148.dir/build
+make[1]: ディレクトリ `/home/nao/catkin_ws/src/robocup_packages/game_controller_bridge/src/naoqi/gcbridge/build-naoqi-sdk/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/nao/catkin_ws/src/robocup_packages/game_controller_bridge/src/naoqi/gcbridge/build-naoqi-sdk/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec159833148.dir/testCXXCompiler.cxx.o
+/usr/bin/c++    {CMAKE_CXX_FLAGS} -DOE_CROSS_BUILD -Wl,--allow-shlib-undefined -DOE_CROSS_BUILD -Wl,--allow-shlib-undefined    -o CMakeFiles/cmTryCompileExec159833148.dir/testCXXCompiler.cxx.o -c /home/nao/catkin_ws/src/robocup_packages/game_controller_bridge/src/naoqi/gcbridge/build-naoqi-sdk/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+c++: error: {CMAKE_CXX_FLAGS}: そのようなファイルやディレクトリはありません
+make[1]: *** [CMakeFiles/cmTryCompileExec159833148.dir/testCXXCompiler.cxx.o] エラー 1
+make[1]: ディレクトリ `/home/nao/catkin_ws/src/robocup_packages/game_controller_bridge/src/naoqi/gcbridge/build-naoqi-sdk/CMakeFiles/CMakeTmp' から出ます
+make: *** [cmTryCompileExec159833148/fast] エラー 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/nao/catkin_ws/src/robocup_packages/game_controller_bridge/src/naoqi/gcbridge/build-naoqi-sdk/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2994926600/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2994926600.dir/build.make CMakeFiles/cmTryCompileExec2994926600.dir/build
+make[1]: ディレクトリ `/home/nao/catkin_ws/src/robocup_packages/game_controller_bridge/src/naoqi/gcbridge/build-naoqi-sdk/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/nao/catkin_ws/src/robocup_packages/game_controller_bridge/src/naoqi/gcbridge/build-naoqi-sdk/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2994926600.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2994926600.dir/CheckSymbolExists.c.o   -c /home/nao/catkin_ws/src/robocup_packages/game_controller_bridge/src/naoqi/gcbridge/build-naoqi-sdk/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec2994926600
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2994926600.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec2994926600.dir/CheckSymbolExists.c.o  -o cmTryCompileExec2994926600 -rdynamic 
+CMakeFiles/cmTryCompileExec2994926600.dir/CheckSymbolExists.c.o: 関数 `main' 内:
+CheckSymbolExists.c:(.text+0x16): `pthread_create' に対する定義されていない参照です
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec2994926600] エラー 1
+make[1]: ディレクトリ `/home/nao/catkin_ws/src/robocup_packages/game_controller_bridge/src/naoqi/gcbridge/build-naoqi-sdk/CMakeFiles/CMakeTmp' から出ます
+make: *** [cmTryCompileExec2994926600/fast] エラー 2
+
+File /home/nao/catkin_ws/src/robocup_packages/game_controller_bridge/src/naoqi/gcbridge/build-naoqi-sdk/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/nao/catkin_ws/src/robocup_packages/game_controller_bridge/src/naoqi/gcbridge/build-naoqi-sdk/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1951956648/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1951956648.dir/build.make CMakeFiles/cmTryCompileExec1951956648.dir/build
+make[1]: ディレクトリ `/home/nao/catkin_ws/src/robocup_packages/game_controller_bridge/src/naoqi/gcbridge/build-naoqi-sdk/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/nao/catkin_ws/src/robocup_packages/game_controller_bridge/src/naoqi/gcbridge/build-naoqi-sdk/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1951956648.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec1951956648.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1951956648
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1951956648.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec1951956648.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1951956648 -rdynamic -lpthreads 
+/usr/bin/ld: -lpthreads が見つかりません
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec1951956648] エラー 1
+make[1]: ディレクトリ `/home/nao/catkin_ws/src/robocup_packages/game_controller_bridge/src/naoqi/gcbridge/build-naoqi-sdk/CMakeFiles/CMakeTmp' から出ます
+make: *** [cmTryCompileExec1951956648/fast] エラー 2
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/bin/c++ 
+Build flags: {CMAKE_CXX_FLAGS};-DOE_CROSS_BUILD;-Wl,--allow-shlib-undefined;-DOE_CROSS_BUILD;-Wl,--allow-shlib-undefined
+Id flags: 
+
+The output was:
+1
+c++: error: {CMAKE_CXX_FLAGS}: そのようなファイルやディレクトリはありません
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/bin/c++ 
+Build flags: {CMAKE_CXX_FLAGS};-DOE_CROSS_BUILD;-Wl,--allow-shlib-undefined;-DOE_CROSS_BUILD;-Wl,--allow-shlib-undefined
+Id flags: -c
+
+The output was:
+1
+c++: error: {CMAKE_CXX_FLAGS}: そのようなファイルやディレクトリはありません
+
+
+Checking whether the CXX compiler is IAR using "" did not match "IAR .+ Compiler":
+c++: error: {CMAKE_CXX_FLAGS}: そのようなファイルやディレクトリはありません
+Determining if the CXX compiler works failed with the following output:
+Change Dir: /home/nao/catkin_ws/src/robocup_packages/game_controller_bridge/src/naoqi/gcbridge/build-naoqi-sdk/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec4168206201/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4168206201.dir/build.make CMakeFiles/cmTryCompileExec4168206201.dir/build
+make[1]: ディレクトリ `/home/nao/catkin_ws/src/robocup_packages/game_controller_bridge/src/naoqi/gcbridge/build-naoqi-sdk/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/nao/catkin_ws/src/robocup_packages/game_controller_bridge/src/naoqi/gcbridge/build-naoqi-sdk/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec4168206201.dir/testCXXCompiler.cxx.o
+/usr/bin/c++    {CMAKE_CXX_FLAGS} -DOE_CROSS_BUILD -Wl,--allow-shlib-undefined -DOE_CROSS_BUILD -Wl,--allow-shlib-undefined    -o CMakeFiles/cmTryCompileExec4168206201.dir/testCXXCompiler.cxx.o -c /home/nao/catkin_ws/src/robocup_packages/game_controller_bridge/src/naoqi/gcbridge/build-naoqi-sdk/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+c++: error: {CMAKE_CXX_FLAGS}: そのようなファイルやディレクトリはありません
+make[1]: *** [CMakeFiles/cmTryCompileExec4168206201.dir/testCXXCompiler.cxx.o] エラー 1
+make[1]: ディレクトリ `/home/nao/catkin_ws/src/robocup_packages/game_controller_bridge/src/naoqi/gcbridge/build-naoqi-sdk/CMakeFiles/CMakeTmp' から出ます
+make: *** [cmTryCompileExec4168206201/fast] エラー 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/nao/catkin_ws/src/robocup_packages/game_controller_bridge/src/naoqi/gcbridge/build-naoqi-sdk/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3365590015/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3365590015.dir/build.make CMakeFiles/cmTryCompileExec3365590015.dir/build
+make[1]: ディレクトリ `/home/nao/catkin_ws/src/robocup_packages/game_controller_bridge/src/naoqi/gcbridge/build-naoqi-sdk/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/nao/catkin_ws/src/robocup_packages/game_controller_bridge/src/naoqi/gcbridge/build-naoqi-sdk/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3365590015.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3365590015.dir/CheckSymbolExists.c.o   -c /home/nao/catkin_ws/src/robocup_packages/game_controller_bridge/src/naoqi/gcbridge/build-naoqi-sdk/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec3365590015
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3365590015.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec3365590015.dir/CheckSymbolExists.c.o  -o cmTryCompileExec3365590015 -rdynamic 
+CMakeFiles/cmTryCompileExec3365590015.dir/CheckSymbolExists.c.o: 関数 `main' 内:
+CheckSymbolExists.c:(.text+0x16): `pthread_create' に対する定義されていない参照です
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec3365590015] エラー 1
+make[1]: ディレクトリ `/home/nao/catkin_ws/src/robocup_packages/game_controller_bridge/src/naoqi/gcbridge/build-naoqi-sdk/CMakeFiles/CMakeTmp' から出ます
+make: *** [cmTryCompileExec3365590015/fast] エラー 2
+
+File /home/nao/catkin_ws/src/robocup_packages/game_controller_bridge/src/naoqi/gcbridge/build-naoqi-sdk/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/nao/catkin_ws/src/robocup_packages/game_controller_bridge/src/naoqi/gcbridge/build-naoqi-sdk/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2576413798/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2576413798.dir/build.make CMakeFiles/cmTryCompileExec2576413798.dir/build
+make[1]: ディレクトリ `/home/nao/catkin_ws/src/robocup_packages/game_controller_bridge/src/naoqi/gcbridge/build-naoqi-sdk/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/nao/catkin_ws/src/robocup_packages/game_controller_bridge/src/naoqi/gcbridge/build-naoqi-sdk/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2576413798.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec2576413798.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2576413798
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2576413798.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec2576413798.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2576413798 -rdynamic -lpthreads 
+/usr/bin/ld: -lpthreads が見つかりません
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec2576413798] エラー 1
+make[1]: ディレクトリ `/home/nao/catkin_ws/src/robocup_packages/game_controller_bridge/src/naoqi/gcbridge/build-naoqi-sdk/CMakeFiles/CMakeTmp' から出ます
+make: *** [cmTryCompileExec2576413798/fast] エラー 2
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/bin/c++ 
+Build flags: {CMAKE_CXX_FLAGS};-DOE_CROSS_BUILD;-Wl,--allow-shlib-undefined;-DOE_CROSS_BUILD;-Wl,--allow-shlib-undefined
+Id flags: 
+
+The output was:
+1
+c++: error: {CMAKE_CXX_FLAGS}: そのようなファイルやディレクトリはありません
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/bin/c++ 
+Build flags: {CMAKE_CXX_FLAGS};-DOE_CROSS_BUILD;-Wl,--allow-shlib-undefined;-DOE_CROSS_BUILD;-Wl,--allow-shlib-undefined
+Id flags: -c
+
+The output was:
+1
+c++: error: {CMAKE_CXX_FLAGS}: そのようなファイルやディレクトリはありません
+
+
+Checking whether the CXX compiler is IAR using "" did not match "IAR .+ Compiler":
+c++: error: {CMAKE_CXX_FLAGS}: そのようなファイルやディレクトリはありません
+Determining if the CXX compiler works failed with the following output:
+Change Dir: /home/nao/catkin_ws/src/robocup_packages/game_controller_bridge/src/naoqi/gcbridge/build-naoqi-sdk/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1655598940/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1655598940.dir/build.make CMakeFiles/cmTryCompileExec1655598940.dir/build
+make[1]: ディレクトリ `/home/nao/catkin_ws/src/robocup_packages/game_controller_bridge/src/naoqi/gcbridge/build-naoqi-sdk/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/nao/catkin_ws/src/robocup_packages/game_controller_bridge/src/naoqi/gcbridge/build-naoqi-sdk/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1655598940.dir/testCXXCompiler.cxx.o
+/usr/bin/c++    {CMAKE_CXX_FLAGS} -DOE_CROSS_BUILD -Wl,--allow-shlib-undefined -DOE_CROSS_BUILD -Wl,--allow-shlib-undefined    -o CMakeFiles/cmTryCompileExec1655598940.dir/testCXXCompiler.cxx.o -c /home/nao/catkin_ws/src/robocup_packages/game_controller_bridge/src/naoqi/gcbridge/build-naoqi-sdk/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+c++: error: {CMAKE_CXX_FLAGS}: そのようなファイルやディレクトリはありません
+make[1]: *** [CMakeFiles/cmTryCompileExec1655598940.dir/testCXXCompiler.cxx.o] エラー 1
+make[1]: ディレクトリ `/home/nao/catkin_ws/src/robocup_packages/game_controller_bridge/src/naoqi/gcbridge/build-naoqi-sdk/CMakeFiles/CMakeTmp' から出ます
+make: *** [cmTryCompileExec1655598940/fast] エラー 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/nao/catkin_ws/src/robocup_packages/game_controller_bridge/src/naoqi/gcbridge/build-naoqi-sdk/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2446087757/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2446087757.dir/build.make CMakeFiles/cmTryCompileExec2446087757.dir/build
+make[1]: ディレクトリ `/home/nao/catkin_ws/src/robocup_packages/game_controller_bridge/src/naoqi/gcbridge/build-naoqi-sdk/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/nao/catkin_ws/src/robocup_packages/game_controller_bridge/src/naoqi/gcbridge/build-naoqi-sdk/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2446087757.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2446087757.dir/CheckSymbolExists.c.o   -c /home/nao/catkin_ws/src/robocup_packages/game_controller_bridge/src/naoqi/gcbridge/build-naoqi-sdk/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec2446087757
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2446087757.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec2446087757.dir/CheckSymbolExists.c.o  -o cmTryCompileExec2446087757 -rdynamic 
+CMakeFiles/cmTryCompileExec2446087757.dir/CheckSymbolExists.c.o: 関数 `main' 内:
+CheckSymbolExists.c:(.text+0x16): `pthread_create' に対する定義されていない参照です
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec2446087757] エラー 1
+make[1]: ディレクトリ `/home/nao/catkin_ws/src/robocup_packages/game_controller_bridge/src/naoqi/gcbridge/build-naoqi-sdk/CMakeFiles/CMakeTmp' から出ます
+make: *** [cmTryCompileExec2446087757/fast] エラー 2
+
+File /home/nao/catkin_ws/src/robocup_packages/game_controller_bridge/src/naoqi/gcbridge/build-naoqi-sdk/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/nao/catkin_ws/src/robocup_packages/game_controller_bridge/src/naoqi/gcbridge/build-naoqi-sdk/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2035507639/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2035507639.dir/build.make CMakeFiles/cmTryCompileExec2035507639.dir/build
+make[1]: ディレクトリ `/home/nao/catkin_ws/src/robocup_packages/game_controller_bridge/src/naoqi/gcbridge/build-naoqi-sdk/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/nao/catkin_ws/src/robocup_packages/game_controller_bridge/src/naoqi/gcbridge/build-naoqi-sdk/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2035507639.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec2035507639.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2035507639
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2035507639.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec2035507639.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2035507639 -rdynamic -lpthreads 
+/usr/bin/ld: -lpthreads が見つかりません
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec2035507639] エラー 1
+make[1]: ディレクトリ `/home/nao/catkin_ws/src/robocup_packages/game_controller_bridge/src/naoqi/gcbridge/build-naoqi-sdk/CMakeFiles/CMakeTmp' から出ます
+make: *** [cmTryCompileExec2035507639/fast] エラー 2
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/bin/c++ 
+Build flags: {CMAKE_CXX_FLAGS};-DOE_CROSS_BUILD;-Wl,--allow-shlib-undefined;-DOE_CROSS_BUILD;-Wl,--allow-shlib-undefined
+Id flags: 
+
+The output was:
+1
+c++: error: {CMAKE_CXX_FLAGS}: そのようなファイルやディレクトリはありません
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/bin/c++ 
+Build flags: {CMAKE_CXX_FLAGS};-DOE_CROSS_BUILD;-Wl,--allow-shlib-undefined;-DOE_CROSS_BUILD;-Wl,--allow-shlib-undefined
+Id flags: -c
+
+The output was:
+1
+c++: error: {CMAKE_CXX_FLAGS}: そのようなファイルやディレクトリはありません
+
+
+Checking whether the CXX compiler is IAR using "" did not match "IAR .+ Compiler":
+c++: error: {CMAKE_CXX_FLAGS}: そのようなファイルやディレクトリはありません
+Determining if the CXX compiler works failed with the following output:
+Change Dir: /home/nao/catkin_ws/src/robocup_packages/game_controller_bridge/src/naoqi/gcbridge/build-naoqi-sdk/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3938508000/fast"
+make[1]: ディレクトリ `/home/nao/catkin_ws/src/robocup_packages/game_controller_bridge/src/naoqi/gcbridge/build-naoqi-sdk/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3938508000.dir/build.make CMakeFiles/cmTryCompileExec3938508000.dir/build
+make[2]: ディレクトリ `/home/nao/catkin_ws/src/robocup_packages/game_controller_bridge/src/naoqi/gcbridge/build-naoqi-sdk/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/nao/catkin_ws/src/robocup_packages/game_controller_bridge/src/naoqi/gcbridge/build-naoqi-sdk/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3938508000.dir/testCXXCompiler.cxx.o
+/usr/bin/c++    {CMAKE_CXX_FLAGS} -DOE_CROSS_BUILD -Wl,--allow-shlib-undefined -DOE_CROSS_BUILD -Wl,--allow-shlib-undefined    -o CMakeFiles/cmTryCompileExec3938508000.dir/testCXXCompiler.cxx.o -c /home/nao/catkin_ws/src/robocup_packages/game_controller_bridge/src/naoqi/gcbridge/build-naoqi-sdk/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+c++: error: {CMAKE_CXX_FLAGS}: そのようなファイルやディレクトリはありません
+make[2]: *** [CMakeFiles/cmTryCompileExec3938508000.dir/testCXXCompiler.cxx.o] エラー 1
+make[2]: ディレクトリ `/home/nao/catkin_ws/src/robocup_packages/game_controller_bridge/src/naoqi/gcbridge/build-naoqi-sdk/CMakeFiles/CMakeTmp' から出ます
+make[1]: *** [cmTryCompileExec3938508000/fast] エラー 2
+make[1]: ディレクトリ `/home/nao/catkin_ws/src/robocup_packages/game_controller_bridge/src/naoqi/gcbridge/build-naoqi-sdk/CMakeFiles/CMakeTmp' から出ます
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/nao/catkin_ws/src/robocup_packages/game_controller_bridge/src/naoqi/gcbridge/build-naoqi-sdk/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec173384112/fast"
+make[1]: ディレクトリ `/home/nao/catkin_ws/src/robocup_packages/game_controller_bridge/src/naoqi/gcbridge/build-naoqi-sdk/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/make -f CMakeFiles/cmTryCompileExec173384112.dir/build.make CMakeFiles/cmTryCompileExec173384112.dir/build
+make[2]: ディレクトリ `/home/nao/catkin_ws/src/robocup_packages/game_controller_bridge/src/naoqi/gcbridge/build-naoqi-sdk/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/nao/catkin_ws/src/robocup_packages/game_controller_bridge/src/naoqi/gcbridge/build-naoqi-sdk/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec173384112.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec173384112.dir/CheckSymbolExists.c.o   -c /home/nao/catkin_ws/src/robocup_packages/game_controller_bridge/src/naoqi/gcbridge/build-naoqi-sdk/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec173384112
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec173384112.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec173384112.dir/CheckSymbolExists.c.o  -o cmTryCompileExec173384112 -rdynamic 
+CMakeFiles/cmTryCompileExec173384112.dir/CheckSymbolExists.c.o: 関数 `main' 内:
+CheckSymbolExists.c:(.text+0x16): `pthread_create' に対する定義されていない参照です
+collect2: error: ld returned 1 exit status
+make[2]: *** [cmTryCompileExec173384112] エラー 1
+make[2]: ディレクトリ `/home/nao/catkin_ws/src/robocup_packages/game_controller_bridge/src/naoqi/gcbridge/build-naoqi-sdk/CMakeFiles/CMakeTmp' から出ます
+make[1]: *** [cmTryCompileExec173384112/fast] エラー 2
+make[1]: ディレクトリ `/home/nao/catkin_ws/src/robocup_packages/game_controller_bridge/src/naoqi/gcbridge/build-naoqi-sdk/CMakeFiles/CMakeTmp' から出ます
+
+File /home/nao/catkin_ws/src/robocup_packages/game_controller_bridge/src/naoqi/gcbridge/build-naoqi-sdk/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/nao/catkin_ws/src/robocup_packages/game_controller_bridge/src/naoqi/gcbridge/build-naoqi-sdk/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec292897955/fast"
+make[1]: ディレクトリ `/home/nao/catkin_ws/src/robocup_packages/game_controller_bridge/src/naoqi/gcbridge/build-naoqi-sdk/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/make -f CMakeFiles/cmTryCompileExec292897955.dir/build.make CMakeFiles/cmTryCompileExec292897955.dir/build
+make[2]: ディレクトリ `/home/nao/catkin_ws/src/robocup_packages/game_controller_bridge/src/naoqi/gcbridge/build-naoqi-sdk/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/nao/catkin_ws/src/robocup_packages/game_controller_bridge/src/naoqi/gcbridge/build-naoqi-sdk/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec292897955.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec292897955.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec292897955
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec292897955.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec292897955.dir/CheckFunctionExists.c.o  -o cmTryCompileExec292897955 -rdynamic -lpthreads 
+/usr/bin/ld: -lpthreads が見つかりません
+collect2: error: ld returned 1 exit status
+make[2]: *** [cmTryCompileExec292897955] エラー 1
+make[2]: ディレクトリ `/home/nao/catkin_ws/src/robocup_packages/game_controller_bridge/src/naoqi/gcbridge/build-naoqi-sdk/CMakeFiles/CMakeTmp' から出ます
+make[1]: *** [cmTryCompileExec292897955/fast] エラー 2
+make[1]: ディレクトリ `/home/nao/catkin_ws/src/robocup_packages/game_controller_bridge/src/naoqi/gcbridge/build-naoqi-sdk/CMakeFiles/CMakeTmp' から出ます
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/bin/c++ 
+Build flags: {CMAKE_CXX_FLAGS};-DOE_CROSS_BUILD;-Wl,--allow-shlib-undefined;-DOE_CROSS_BUILD;-Wl,--allow-shlib-undefined
+Id flags: 
+
+The output was:
+1
+c++: error: {CMAKE_CXX_FLAGS}: そのようなファイルやディレクトリはありません
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/bin/c++ 
+Build flags: {CMAKE_CXX_FLAGS};-DOE_CROSS_BUILD;-Wl,--allow-shlib-undefined;-DOE_CROSS_BUILD;-Wl,--allow-shlib-undefined
+Id flags: -c
+
+The output was:
+1
+c++: error: {CMAKE_CXX_FLAGS}: そのようなファイルやディレクトリはありません
+
+
+Checking whether the CXX compiler is IAR using "" did not match "IAR .+ Compiler":
+c++: error: {CMAKE_CXX_FLAGS}: そのようなファイルやディレクトリはありません
+Determining if the CXX compiler works failed with the following output:
+Change Dir: /home/nao/catkin_ws/src/robocup_packages/game_controller_bridge/src/naoqi/gcbridge/build-naoqi-sdk/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec570013990/fast"
+make[1]: ディレクトリ `/home/nao/catkin_ws/src/robocup_packages/game_controller_bridge/src/naoqi/gcbridge/build-naoqi-sdk/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/make -f CMakeFiles/cmTryCompileExec570013990.dir/build.make CMakeFiles/cmTryCompileExec570013990.dir/build
+make[2]: ディレクトリ `/home/nao/catkin_ws/src/robocup_packages/game_controller_bridge/src/naoqi/gcbridge/build-naoqi-sdk/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/nao/catkin_ws/src/robocup_packages/game_controller_bridge/src/naoqi/gcbridge/build-naoqi-sdk/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec570013990.dir/testCXXCompiler.cxx.o
+/usr/bin/c++    {CMAKE_CXX_FLAGS} -DOE_CROSS_BUILD -Wl,--allow-shlib-undefined -DOE_CROSS_BUILD -Wl,--allow-shlib-undefined    -o CMakeFiles/cmTryCompileExec570013990.dir/testCXXCompiler.cxx.o -c /home/nao/catkin_ws/src/robocup_packages/game_controller_bridge/src/naoqi/gcbridge/build-naoqi-sdk/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+c++: error: {CMAKE_CXX_FLAGS}: そのようなファイルやディレクトリはありません
+make[2]: *** [CMakeFiles/cmTryCompileExec570013990.dir/testCXXCompiler.cxx.o] エラー 1
+make[2]: ディレクトリ `/home/nao/catkin_ws/src/robocup_packages/game_controller_bridge/src/naoqi/gcbridge/build-naoqi-sdk/CMakeFiles/CMakeTmp' から出ます
+make[1]: *** [cmTryCompileExec570013990/fast] エラー 2
+make[1]: ディレクトリ `/home/nao/catkin_ws/src/robocup_packages/game_controller_bridge/src/naoqi/gcbridge/build-naoqi-sdk/CMakeFiles/CMakeTmp' から出ます
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/nao/catkin_ws/src/robocup_packages/game_controller_bridge/src/naoqi/gcbridge/build-naoqi-sdk/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2128973678/fast"
+make[1]: ディレクトリ `/home/nao/catkin_ws/src/robocup_packages/game_controller_bridge/src/naoqi/gcbridge/build-naoqi-sdk/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2128973678.dir/build.make CMakeFiles/cmTryCompileExec2128973678.dir/build
+make[2]: ディレクトリ `/home/nao/catkin_ws/src/robocup_packages/game_controller_bridge/src/naoqi/gcbridge/build-naoqi-sdk/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/nao/catkin_ws/src/robocup_packages/game_controller_bridge/src/naoqi/gcbridge/build-naoqi-sdk/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2128973678.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2128973678.dir/CheckSymbolExists.c.o   -c /home/nao/catkin_ws/src/robocup_packages/game_controller_bridge/src/naoqi/gcbridge/build-naoqi-sdk/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec2128973678
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2128973678.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec2128973678.dir/CheckSymbolExists.c.o  -o cmTryCompileExec2128973678 -rdynamic 
+CMakeFiles/cmTryCompileExec2128973678.dir/CheckSymbolExists.c.o: 関数 `main' 内:
+CheckSymbolExists.c:(.text+0x16): `pthread_create' に対する定義されていない参照です
+collect2: error: ld returned 1 exit status
+make[2]: *** [cmTryCompileExec2128973678] エラー 1
+make[2]: ディレクトリ `/home/nao/catkin_ws/src/robocup_packages/game_controller_bridge/src/naoqi/gcbridge/build-naoqi-sdk/CMakeFiles/CMakeTmp' から出ます
+make[1]: *** [cmTryCompileExec2128973678/fast] エラー 2
+make[1]: ディレクトリ `/home/nao/catkin_ws/src/robocup_packages/game_controller_bridge/src/naoqi/gcbridge/build-naoqi-sdk/CMakeFiles/CMakeTmp' から出ます
+
+File /home/nao/catkin_ws/src/robocup_packages/game_controller_bridge/src/naoqi/gcbridge/build-naoqi-sdk/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/nao/catkin_ws/src/robocup_packages/game_controller_bridge/src/naoqi/gcbridge/build-naoqi-sdk/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec4267808969/fast"
+make[1]: ディレクトリ `/home/nao/catkin_ws/src/robocup_packages/game_controller_bridge/src/naoqi/gcbridge/build-naoqi-sdk/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4267808969.dir/build.make CMakeFiles/cmTryCompileExec4267808969.dir/build
+make[2]: ディレクトリ `/home/nao/catkin_ws/src/robocup_packages/game_controller_bridge/src/naoqi/gcbridge/build-naoqi-sdk/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/nao/catkin_ws/src/robocup_packages/game_controller_bridge/src/naoqi/gcbridge/build-naoqi-sdk/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4267808969.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec4267808969.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec4267808969
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4267808969.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec4267808969.dir/CheckFunctionExists.c.o  -o cmTryCompileExec4267808969 -rdynamic -lpthreads 
+/usr/bin/ld: -lpthreads が見つかりません
+collect2: error: ld returned 1 exit status
+make[2]: ディレクトリ `/home/nao/catkin_ws/src/robocup_packages/game_controller_bridge/src/naoqi/gcbridge/build-naoqi-sdk/CMakeFiles/CMakeTmp' から出ます
+make[2]: *** [cmTryCompileExec4267808969] エラー 1
+make[1]: *** [cmTryCompileExec4267808969/fast] エラー 2
+make[1]: ディレクトリ `/home/nao/catkin_ws/src/robocup_packages/game_controller_bridge/src/naoqi/gcbridge/build-naoqi-sdk/CMakeFiles/CMakeTmp' から出ます
+
+

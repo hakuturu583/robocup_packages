@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch>
+  <group ns = "robocup_sensor_watcher">
+    <node name="imu_watcher" pkg="robocup_sensor_watcher" type="imu_watcher.py" args="" output="screen" respawn="true">
+      <remap from="/robocup_sensor_watcher/imu" to="/imu" />
+    </node>
+
+    <node name="sonar_watcher" pkg="robocup_sensor_watcher" type="sonar_watcher.py" args="" output="screen" respawn="true">
+      <remap from="/sonar/left/sonar" to="/nao_robot/sonar/left/sonar" />
+      <remap from="/sonar/right/sonar" to="/nao_robot/sonar/right/sonar" />
+    </node>
+
+    <node name="chest_button_watcher" pkg="robocup_sensor_watcher" type="chest_button_watcher.py" args="" output="screen" respawn="true">
+      <remap from="/chest_button" to="/nao_robot/chest_button" />
+    </node>
+
+    <node name="tactile_watcher" pkg="robocup_sensor_watcher" type="tactile_watcher.py" args="" output="screen" respawn="true">
+      <remap from="/robocup_sensor_watcher/bumper" to="/nao_robot/bumper" />
+      <remap from="/robocup_sensor_watcher/foot_contact" to="/nao_robot/foot_contact" />
+    </node>
+
+    <node name="vision_system_watcher" pkg="robocup_sensor_watcher" type="vision_system_watcher.py" args="" output="screen" respawn="true">
+      <remap from="/object_detector_top/object" to="/robocup_object_detector/object_detector_top/object" />
+      <remap from="/object_detector_bottom/object" to="/robocup_object_detector/object_detector_bottom/object" />
+    </node>
+
+    <node name="motion_watcher" pkg="robocup_sensor_watcher" type="motion_watcher.py" args="" output="screen" respawn="true">
+    </node>
+
+    <node name="nao_audio_watcher" pkg="robocup_sensor_watcher" type="nao_audio_watcher.py" args="" output="screen" respawn="true">
+      <remap from="/robocup_sensor_watcher/audio_raw" to="/nao_robot/microphone/naoqi_microphone/audio_raw" />
+      <remap from="/nao_audio/audio_source_localization" to="/nao_robot/nao_audio/audio_source_localization" />
+    </node>
+  </group>
+</launch>

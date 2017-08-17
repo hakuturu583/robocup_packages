@@ -1,0 +1,35 @@
+!!python/object/new:dynamic_reconfigure.encoding.Config
+dictitems:
+  ball_detection_range: 3.0
+  bibs_height: 0.15
+  bibs_min_aspect_ratio: 0.8
+  diameter_soccer_ball: 0.15
+  groups: !!python/object/new:dynamic_reconfigure.encoding.Config
+    dictitems:
+      ball_detection_range: 3.0
+      bibs_height: 0.15
+      bibs_min_aspect_ratio: 0.8
+      diameter_soccer_ball: 0.15
+      groups: !!python/object/new:dynamic_reconfigure.encoding.Config
+        state: []
+      height_robot: 0.6
+      id: 0
+      max_robot_detection_range: 3.0
+      min_robot_detection_range: 0.6
+      name: Default
+      parameters: !!python/object/new:dynamic_reconfigure.encoding.Config
+        state: []
+      parent: 0
+      state: true
+      type: ''
+      view_angle_height: 80.0
+      view_angle_width: 40.0
+      width_robot: 0.3
+    state: []
+  height_robot: 0.6
+  max_robot_detection_range: 3.0
+  min_robot_detection_range: 0.6
+  view_angle_height: 80.0
+  view_angle_width: 40.0
+  width_robot: 0.3
+state: []

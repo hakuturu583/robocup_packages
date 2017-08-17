@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch>
+  <include file="$(find robocup_object_detector)/launch/object_detector.launch"/>
+
+  <include file="$(find robocup_state_manager)/launch/state_manager.launch"/>
+
+  <include file="$(find robocup_viewer)/launch/viewer.launch"/>
+
+  <include file="$(find robocup_sensor_watcher)/launch/sensor_watcher.launch"/>
+
+  <include file="$(find robocup_localization)/launch/robocup_localization.launch"/>
+
+  <include file="$(find robocup_navigation)/launch/navigation.launch"/>
+</launch>

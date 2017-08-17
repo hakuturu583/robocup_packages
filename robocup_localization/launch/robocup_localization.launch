@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch>
+  <group ns="robocup_localization">
+    <node name="localization_node" pkg="robocup_localization" type="robocup_localization_node" args="" output="screen" respawn="true">
+      <remap from="/robocup_localization/localization_node/field_model" to="/robocup_localization/field_model_loader/field_model" />
+      <remap from="/robocup_localization/localization_node/white_lines" to="/robocup_localization/white_line_detector/white_lines" />
+      <param name="num_particles" value="1000" type="int"/>
+      <param name="azimuth_to_goal" value="-0.72" type="double"/>
+      <param name="random_transition_size" value="0.3" type="double"/>
+    </node>
+
+    <node name="field_model_loader" pkg="robocup_localization" type="field_model_loader.py" args="" output="screen" respawn="true">
+    </node>
+
+    <node name="white_line_detector" pkg="robocup_localization" type="white_line_detector.py" args="" output="screen" respawn="true">
+      <param name="~top_view_topic" value="/robocup_localization/topview_publisher_bottom_camera/top_view" type="str"/>
+      <param name="~camera_frame_name" value="CameraBottom_frame" type="str"/>
+      <param name="~kernel_size" value="0" type="int"/>
+      <param name="~hough_line_min_length" value="200" type="int"/>
+      <param name="~v_min" value="100" type="int"/>
+      <param name="~s_max" value="70" type="int"/>
+    </node>
+
+    <node name="topview_publisher_bottom_camera" pkg="robocup_localization" type="topview_publisher_node" args="" output="screen" respawn="true">
+      <param name="~camera_topic_name" value="/nao_robot/camera/bottom/camera/image_raw" type="str"/>
+      <param name="~camera_info_topic_name" value="/nao_robot/camera/bottom/camera/camera_info" type="str"/>
+      <param name="~camera_frame_name" value="CameraBottom_frame" type="str"/>
+      <param name="~simulated_camera_height" value="2.0" type="double"/>
+      <param name="~simulated_camera_frame" value="SimulatedCameraBottom_frame" type="str"/>
+    </node>
+
+    <node name="topview_publisher_top_camera" pkg="robocup_localization" type="topview_publisher_node" args="" output="screen" respawn="true">
+      <param name="~camera_topic_name" value="/nao_robot/camera/top/camera/image_raw" type="str"/>
+      <param name="~camera_info_topic_name" value="/nao_robot/camera/top/camera/camera_info" type="str"/>
+      <param name="~camera_frame_name" value="CameraTop_frame" type="str"/>
+      <param name="~simulated_camera_height" value="10.0" type="double"/>
+      <param name="~simulated_camera_frame" value="SimulatedCameraTop_frame" type="str"/>
+    </node>
+
+    <node name="goal_visualizer_node" pkg="robocup_localization" type="goal_visualizer_node.py" args="" output="screen" respawn="true">
+    </node>
+  </group>
+</launch>

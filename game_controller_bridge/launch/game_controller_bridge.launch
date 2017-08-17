@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch>
+  <group ns="robocup_geme_controller_bridge">
+    <arg name="nao_ip" default="$(optenv NAO_IP 127.0.0.1)" />
+    <arg name="team_number" default="$(optenv TEAM_NUMBER 51)" />
+    <arg name="team_color" default="$(optenv TEAM_COLOR R)" />
+    <arg name="player_number" default="$(optenv PLAYER_NUMBER 1)" />
+
+    <node name="game_state_publisher" pkg="game_controller_bridge" type="game_state_publisher.py" args="" output="screen" respawn="true">
+      <param name="nao_ip" value="$(arg nao_ip)" type="str"/>
+      <param name="team_number" value="$(arg team_number)" type="int"/>
+      <param name="team_color" value="$(arg team_color)" type="str"/>
+      <param name="player_number" value="$(arg player_number)" type="int"/>
+      <remap from="/robocup_geme_controller_bridge/game_state" to="/game_state" />
+    </node>
+
+    <node name="game_state_watcher" pkg="game_controller_bridge" type="game_state_watcher.py" args="" output="screen" respawn="true">
+      <param name="nao_ip" value="$(arg nao_ip)" type="str"/>
+      <param name="team_number" value="$(arg team_number)" type="int"/>
+      <param name="team_color" value="$(arg team_color)" type="str"/>
+      <param name="player_number" value="$(arg player_number)" type="int"/>
+      <remap from="/robocup_geme_controller_bridge/game_state" to="/game_state" />
+    </node>
+
+    <node name="run_gc_bridge" pkg="game_controller_bridge" type="run_gc_bridge_remote.py" args="" output="screen" respawn="false">
+      <param name="nao_ip" value="$(arg nao_ip)" type="str"/>
+      <param name="team_number" value="$(arg team_number)" type="int"/>
+      <param name="team_color" value="$(arg team_color)" type="str"/>
+      <param name="player_number" value="$(arg player_number)" type="int"/>
+    </node>
+  </group>
+</launch>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch>
+<!--
+  <node name="smach_viewer" pkg="smach_viewer" type="smach_viewer.py" args="" output="log" respawn="false">
+  </node>
+-->
+  <node name="detected_field_object_marker_publisher" pkg="robocup_viewer" type="field_object_marker_publisher.py" args="" output="screen" respawn="true">
+    <remap from="/detected_field_object_marker_publisher/white_lines" to="/robocup_localization/white_line_detector/white_lines" />
+  </node>
+
+  <node name="modeled_field_object_marker_publisher" pkg="robocup_viewer" type="field_object_marker_publisher.py" args="" output="screen" respawn="true">
+    <remap from="/modeled_field_object_marker_publisher/white_lines" to="/robocup_localization/field_model_loader/field_model" />
+  </node>
+</launch>

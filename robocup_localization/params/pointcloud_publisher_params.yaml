@@ -1,0 +1,41 @@
+!!python/object/new:dynamic_reconfigure.encoding.Config
+dictitems:
+  base_footprint_frame: base_footprint
+  camera_frame: CameraTop_frame
+  fixed_frame: odom
+  green_h_th_low: 45.0
+  green_h_th_up: 43.19999999
+  green_s_th: 96.9
+  green_v_th: 51.0
+  groups: !!python/object/new:dynamic_reconfigure.encoding.Config
+    dictitems:
+      base_footprint_frame: base_footprint
+      camera_frame: CameraTop_frame
+      fixed_frame: odom
+      green_h_th_low: 45.0
+      green_h_th_up: 43.19999999
+      green_s_th: 96.9
+      green_v_th: 51.0
+      groups: !!python/object/new:dynamic_reconfigure.encoding.Config
+        state: []
+      id: 0
+      min_field_area: 500.0
+      name: Default
+      parameters: !!python/object/new:dynamic_reconfigure.encoding.Config
+        state: []
+      parent: 0
+      pointcloud_white_line_th_b: 0.0
+      pointcloud_white_line_th_g: 0.0
+      pointcloud_white_line_th_r: 0.0
+      state: true
+      type: ''
+      view_angle_height: 53.0
+      view_angle_width: 60.0
+    state: []
+  min_field_area: 500.0
+  pointcloud_white_line_th_b: 0.0
+  pointcloud_white_line_th_g: 0.0
+  pointcloud_white_line_th_r: 0.0
+  view_angle_height: 53.0
+  view_angle_width: 60.0
+state: []

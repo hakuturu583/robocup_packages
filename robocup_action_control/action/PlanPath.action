@@ -1,0 +1,11 @@
+# Define the goal
+geometry_msgs/PoseStamped initial_pose
+geometry_msgs/PoseStamped goal
+---
+# Define the result
+nav_msgs/Path path
+humanoid_nav_msgs/StepTarget[] footsteps
+bool success
+---
+# Define a feedback message
+duration elapsed_time

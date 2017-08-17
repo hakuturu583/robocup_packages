@@ -1,0 +1,33 @@
+!!python/object/new:dynamic_reconfigure.encoding.Config
+dictitems:
+  azimuth_to_goal: 0.1
+  green_th_g_high: 1.0
+  green_th_g_low: 0.4
+  green_th_strongness: 0.95
+  groups: !!python/object/new:dynamic_reconfigure.encoding.Config
+    dictitems:
+      azimuth_to_goal: 0.1
+      green_th_g_high: 1.0
+      green_th_g_low: 0.4
+      green_th_strongness: 0.95
+      groups: !!python/object/new:dynamic_reconfigure.encoding.Config
+        state: []
+      id: 0
+      name: Default
+      parameters: !!python/object/new:dynamic_reconfigure.encoding.Config
+        state: []
+      parent: 0
+      state: true
+      type: ''
+      weight_azimuth: 0.5
+      weight_num_matched_points: 3.0
+      white_th_b_low: 0.4
+      white_th_g_low: 0.4
+      white_th_r_low: 0.4
+    state: []
+  weight_azimuth: 0.5
+  weight_num_matched_points: 3.0
+  white_th_b_low: 0.4
+  white_th_g_low: 0.4
+  white_th_r_low: 0.4
+state: []

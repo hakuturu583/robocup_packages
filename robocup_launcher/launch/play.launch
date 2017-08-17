@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch>
+  <arg name="nao_ip" value="$(optenv NAO_IP 127.0.0.1)" />
+  <arg name="roscore_ip" value="$(optenv ROSCORE_IP 127.0.0.1)" />
+  <param name="nao_ip" value="$(arg nao_ip)" type="str"/>
+  <param name="roscore_ip" value="$(arg roscore_ip)" type="str"/>
+
+  <param name="robot_description" textfile="$(find nao_description)/urdf/naoV40_generated_urdf/nao.urdf" />
+
+  <include file="$(find robocup_launcher)/launch/robocup_system.launch"/>
+
+  <node name="rviz" pkg="rviz" type="rviz" args="-d $(find robocup_launcher)/config/nao_cockpit.rviz" output="log" respawn="false">
+  </node>
+
+  <!-- nodes launch or not launch -->
+  <arg name="on_real_robot" default="false"/>
+  <arg name="record_bag" default="false"/>
+  <arg name="play_bag" default="true"/>
+  <arg name="filename" default="field.bag" />
+
+  <include file="$(find robocup_launcher)/launch/naoqi_systems.launch" if="$(arg on_real_robot)">
+    <arg name="nao_ip" value="$(arg nao_ip)" />
+  </include>
+
+  <include file="$(find robocup_action_control)/launch/action_controller.launch" if="$(arg on_real_robot)"/>
+
+  <include file="$(find game_controller_bridge)/launch/game_controller_bridge.launch" if="$(arg on_real_robot)"/>
+
+  <node name="rosbag" pkg="rosbag" type="play" args="--clock $(find robocup_launcher)/bag/$(arg filename)" output="screen" respawn="false" if="$(arg play_bag)">
+  </node>
+
+  <node name="rosbag" pkg="rosbag" type="record" args="-a -O $(find robocup_launcher)/bag/$(arg filename)" output="screen" respawn="true" if="$(arg record_bag)">
+  </node>
+</launch>

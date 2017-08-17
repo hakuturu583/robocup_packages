@@ -1,0 +1,4 @@
+<worktree>
+  <project src="gcbridge" />
+  <project src="customlibgamectrl" />
+</worktree>

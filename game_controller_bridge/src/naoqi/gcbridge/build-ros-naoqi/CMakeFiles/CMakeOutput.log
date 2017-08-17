@@ -1,0 +1,216 @@
+The target system is: Linux -  - i686
+The host system is: Linux - 3.13.0-119-generic - x86_64
+Determining if files pthread.h exist passed with the following output:
+Change Dir: /home/nao/catkin_ws/src/robocup_packages/game_controller_bridge/src/naoqi/gcbridge/build-ros-naoqi/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3843244292/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3843244292.dir/build.make CMakeFiles/cmTryCompileExec3843244292.dir/build
+make[1]: ディレクトリ `/home/nao/catkin_ws/src/robocup_packages/game_controller_bridge/src/naoqi/gcbridge/build-ros-naoqi/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/nao/catkin_ws/src/robocup_packages/game_controller_bridge/src/naoqi/gcbridge/build-ros-naoqi/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3843244292.dir/CheckIncludeFiles.c.o
+/home/nao/naoqi/ctc-linux32-atom-2.4.3.28/cross/bin/i686-aldebaran-linux-gnu-gcc   -DI_AM_A_ROBOT --sysroot /home/nao/naoqi/ctc-linux32-atom-2.4.3.28/cross/i686-aldebaran-linux-gnu/sysroot/ -pipe -fomit-frame-pointer -fno-align-jumps -fno-align-functions -fno-align-labels -fno-align-loops -m32 -mtune=generic   -DI_AM_A_ROBOT --sysroot /home/nao/naoqi/ctc-linux32-atom-2.4.3.28/cross/i686-aldebaran-linux-gnu/sysroot/ -pipe -fomit-frame-pointer -fno-align-jumps -fno-align-functions -fno-align-labels -fno-align-loops -m32 -mtune=generic    -o CMakeFiles/cmTryCompileExec3843244292.dir/CheckIncludeFiles.c.o   -c /home/nao/catkin_ws/src/robocup_packages/game_controller_bridge/src/naoqi/gcbridge/build-ros-naoqi/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec3843244292
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3843244292.dir/link.txt --verbose=1
+/home/nao/naoqi/ctc-linux32-atom-2.4.3.28/cross/bin/i686-aldebaran-linux-gnu-gcc     -DI_AM_A_ROBOT --sysroot /home/nao/naoqi/ctc-linux32-atom-2.4.3.28/cross/i686-aldebaran-linux-gnu/sysroot/ -pipe -fomit-frame-pointer -fno-align-jumps -fno-align-functions -fno-align-labels -fno-align-loops -m32 -mtune=generic   -DI_AM_A_ROBOT --sysroot /home/nao/naoqi/ctc-linux32-atom-2.4.3.28/cross/i686-aldebaran-linux-gnu/sysroot/ -pipe -fomit-frame-pointer -fno-align-jumps -fno-align-functions -fno-align-labels -fno-align-loops -m32 -mtune=generic   -Wl,--as-needed,--sysroot,/home/nao/naoqi/ctc-linux32-atom-2.4.3.28/cross/i686-aldebaran-linux-gnu/sysroot/ CMakeFiles/cmTryCompileExec3843244292.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec3843244292 -rdynamic 
+make[1]: ディレクトリ `/home/nao/catkin_ws/src/robocup_packages/game_controller_bridge/src/naoqi/gcbridge/build-ros-naoqi/CMakeFiles/CMakeTmp' から出ます
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /home/nao/catkin_ws/src/robocup_packages/game_controller_bridge/src/naoqi/gcbridge/build-ros-naoqi/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec4184151754/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4184151754.dir/build.make CMakeFiles/cmTryCompileExec4184151754.dir/build
+make[1]: ディレクトリ `/home/nao/catkin_ws/src/robocup_packages/game_controller_bridge/src/naoqi/gcbridge/build-ros-naoqi/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/nao/catkin_ws/src/robocup_packages/game_controller_bridge/src/naoqi/gcbridge/build-ros-naoqi/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4184151754.dir/CheckFunctionExists.c.o
+/home/nao/naoqi/ctc-linux32-atom-2.4.3.28/cross/bin/i686-aldebaran-linux-gnu-gcc   -DI_AM_A_ROBOT --sysroot /home/nao/naoqi/ctc-linux32-atom-2.4.3.28/cross/i686-aldebaran-linux-gnu/sysroot/ -pipe -fomit-frame-pointer -fno-align-jumps -fno-align-functions -fno-align-labels -fno-align-loops -m32 -mtune=generic   -DI_AM_A_ROBOT --sysroot /home/nao/naoqi/ctc-linux32-atom-2.4.3.28/cross/i686-aldebaran-linux-gnu/sysroot/ -pipe -fomit-frame-pointer -fno-align-jumps -fno-align-functions -fno-align-labels -fno-align-loops -m32 -mtune=generic -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec4184151754.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec4184151754
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4184151754.dir/link.txt --verbose=1
+/home/nao/naoqi/ctc-linux32-atom-2.4.3.28/cross/bin/i686-aldebaran-linux-gnu-gcc     -DI_AM_A_ROBOT --sysroot /home/nao/naoqi/ctc-linux32-atom-2.4.3.28/cross/i686-aldebaran-linux-gnu/sysroot/ -pipe -fomit-frame-pointer -fno-align-jumps -fno-align-functions -fno-align-labels -fno-align-loops -m32 -mtune=generic   -DI_AM_A_ROBOT --sysroot /home/nao/naoqi/ctc-linux32-atom-2.4.3.28/cross/i686-aldebaran-linux-gnu/sysroot/ -pipe -fomit-frame-pointer -fno-align-jumps -fno-align-functions -fno-align-labels -fno-align-loops -m32 -mtune=generic -DCHECK_FUNCTION_EXISTS=pthread_create  -Wl,--as-needed,--sysroot,/home/nao/naoqi/ctc-linux32-atom-2.4.3.28/cross/i686-aldebaran-linux-gnu/sysroot/ CMakeFiles/cmTryCompileExec4184151754.dir/CheckFunctionExists.c.o  -o cmTryCompileExec4184151754 -rdynamic -lpthread 
+make[1]: ディレクトリ `/home/nao/catkin_ws/src/robocup_packages/game_controller_bridge/src/naoqi/gcbridge/build-ros-naoqi/CMakeFiles/CMakeTmp' から出ます
+
+
+Determining if files pthread.h exist passed with the following output:
+Change Dir: /home/nao/catkin_ws/src/robocup_packages/game_controller_bridge/src/naoqi/gcbridge/build-ros-naoqi/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1209981470/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1209981470.dir/build.make CMakeFiles/cmTryCompileExec1209981470.dir/build
+make[1]: ディレクトリ `/home/nao/catkin_ws/src/robocup_packages/game_controller_bridge/src/naoqi/gcbridge/build-ros-naoqi/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/nao/catkin_ws/src/robocup_packages/game_controller_bridge/src/naoqi/gcbridge/build-ros-naoqi/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1209981470.dir/CheckIncludeFiles.c.o
+/home/nao/naoqi/ctc-linux32-atom-2.4.3.28/cross/bin/i686-aldebaran-linux-gnu-gcc   -DI_AM_A_ROBOT --sysroot /home/nao/naoqi/ctc-linux32-atom-2.4.3.28/cross/i686-aldebaran-linux-gnu/sysroot/ -pipe -fomit-frame-pointer -fno-align-jumps -fno-align-functions -fno-align-labels -fno-align-loops -m32 -mtune=generic    -o CMakeFiles/cmTryCompileExec1209981470.dir/CheckIncludeFiles.c.o   -c /home/nao/catkin_ws/src/robocup_packages/game_controller_bridge/src/naoqi/gcbridge/build-ros-naoqi/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec1209981470
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1209981470.dir/link.txt --verbose=1
+/home/nao/naoqi/ctc-linux32-atom-2.4.3.28/cross/bin/i686-aldebaran-linux-gnu-gcc     -DI_AM_A_ROBOT --sysroot /home/nao/naoqi/ctc-linux32-atom-2.4.3.28/cross/i686-aldebaran-linux-gnu/sysroot/ -pipe -fomit-frame-pointer -fno-align-jumps -fno-align-functions -fno-align-labels -fno-align-loops -m32 -mtune=generic   -Wl,--as-needed,--sysroot,/home/nao/naoqi/ctc-linux32-atom-2.4.3.28/cross/i686-aldebaran-linux-gnu/sysroot/ CMakeFiles/cmTryCompileExec1209981470.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec1209981470 -rdynamic 
+make[1]: ディレクトリ `/home/nao/catkin_ws/src/robocup_packages/game_controller_bridge/src/naoqi/gcbridge/build-ros-naoqi/CMakeFiles/CMakeTmp' から出ます
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /home/nao/catkin_ws/src/robocup_packages/game_controller_bridge/src/naoqi/gcbridge/build-ros-naoqi/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2356253095/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2356253095.dir/build.make CMakeFiles/cmTryCompileExec2356253095.dir/build
+make[1]: ディレクトリ `/home/nao/catkin_ws/src/robocup_packages/game_controller_bridge/src/naoqi/gcbridge/build-ros-naoqi/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/nao/catkin_ws/src/robocup_packages/game_controller_bridge/src/naoqi/gcbridge/build-ros-naoqi/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2356253095.dir/CheckFunctionExists.c.o
+/home/nao/naoqi/ctc-linux32-atom-2.4.3.28/cross/bin/i686-aldebaran-linux-gnu-gcc   -DI_AM_A_ROBOT --sysroot /home/nao/naoqi/ctc-linux32-atom-2.4.3.28/cross/i686-aldebaran-linux-gnu/sysroot/ -pipe -fomit-frame-pointer -fno-align-jumps -fno-align-functions -fno-align-labels -fno-align-loops -m32 -mtune=generic -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec2356253095.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2356253095
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2356253095.dir/link.txt --verbose=1
+/home/nao/naoqi/ctc-linux32-atom-2.4.3.28/cross/bin/i686-aldebaran-linux-gnu-gcc     -DI_AM_A_ROBOT --sysroot /home/nao/naoqi/ctc-linux32-atom-2.4.3.28/cross/i686-aldebaran-linux-gnu/sysroot/ -pipe -fomit-frame-pointer -fno-align-jumps -fno-align-functions -fno-align-labels -fno-align-loops -m32 -mtune=generic -DCHECK_FUNCTION_EXISTS=pthread_create  -Wl,--as-needed,--sysroot,/home/nao/naoqi/ctc-linux32-atom-2.4.3.28/cross/i686-aldebaran-linux-gnu/sysroot/ CMakeFiles/cmTryCompileExec2356253095.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2356253095 -rdynamic -lpthread 
+make[1]: ディレクトリ `/home/nao/catkin_ws/src/robocup_packages/game_controller_bridge/src/naoqi/gcbridge/build-ros-naoqi/CMakeFiles/CMakeTmp' から出ます
+
+
+Determining if files pthread.h exist passed with the following output:
+Change Dir: /home/nao/catkin_ws/src/robocup_packages/game_controller_bridge/src/naoqi/gcbridge/build-ros-naoqi/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec142830955/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec142830955.dir/build.make CMakeFiles/cmTryCompileExec142830955.dir/build
+make[1]: ディレクトリ `/home/nao/catkin_ws/src/robocup_packages/game_controller_bridge/src/naoqi/gcbridge/build-ros-naoqi/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/nao/catkin_ws/src/robocup_packages/game_controller_bridge/src/naoqi/gcbridge/build-ros-naoqi/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec142830955.dir/CheckIncludeFiles.c.o
+/home/nao/naoqi/ctc-linux32-atom-2.4.3.28/cross/bin/i686-aldebaran-linux-gnu-gcc   -DI_AM_A_ROBOT --sysroot /home/nao/naoqi/ctc-linux32-atom-2.4.3.28/cross/i686-aldebaran-linux-gnu/sysroot/ -pipe -fomit-frame-pointer -fno-align-jumps -fno-align-functions -fno-align-labels -fno-align-loops -m32 -mtune=generic    -o CMakeFiles/cmTryCompileExec142830955.dir/CheckIncludeFiles.c.o   -c /home/nao/catkin_ws/src/robocup_packages/game_controller_bridge/src/naoqi/gcbridge/build-ros-naoqi/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec142830955
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec142830955.dir/link.txt --verbose=1
+/home/nao/naoqi/ctc-linux32-atom-2.4.3.28/cross/bin/i686-aldebaran-linux-gnu-gcc     -DI_AM_A_ROBOT --sysroot /home/nao/naoqi/ctc-linux32-atom-2.4.3.28/cross/i686-aldebaran-linux-gnu/sysroot/ -pipe -fomit-frame-pointer -fno-align-jumps -fno-align-functions -fno-align-labels -fno-align-loops -m32 -mtune=generic   -Wl,--as-needed,--sysroot,/home/nao/naoqi/ctc-linux32-atom-2.4.3.28/cross/i686-aldebaran-linux-gnu/sysroot/ CMakeFiles/cmTryCompileExec142830955.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec142830955 -rdynamic 
+make[1]: ディレクトリ `/home/nao/catkin_ws/src/robocup_packages/game_controller_bridge/src/naoqi/gcbridge/build-ros-naoqi/CMakeFiles/CMakeTmp' から出ます
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /home/nao/catkin_ws/src/robocup_packages/game_controller_bridge/src/naoqi/gcbridge/build-ros-naoqi/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3132006204/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3132006204.dir/build.make CMakeFiles/cmTryCompileExec3132006204.dir/build
+make[1]: ディレクトリ `/home/nao/catkin_ws/src/robocup_packages/game_controller_bridge/src/naoqi/gcbridge/build-ros-naoqi/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/nao/catkin_ws/src/robocup_packages/game_controller_bridge/src/naoqi/gcbridge/build-ros-naoqi/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3132006204.dir/CheckFunctionExists.c.o
+/home/nao/naoqi/ctc-linux32-atom-2.4.3.28/cross/bin/i686-aldebaran-linux-gnu-gcc   -DI_AM_A_ROBOT --sysroot /home/nao/naoqi/ctc-linux32-atom-2.4.3.28/cross/i686-aldebaran-linux-gnu/sysroot/ -pipe -fomit-frame-pointer -fno-align-jumps -fno-align-functions -fno-align-labels -fno-align-loops -m32 -mtune=generic -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec3132006204.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3132006204
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3132006204.dir/link.txt --verbose=1
+/home/nao/naoqi/ctc-linux32-atom-2.4.3.28/cross/bin/i686-aldebaran-linux-gnu-gcc     -DI_AM_A_ROBOT --sysroot /home/nao/naoqi/ctc-linux32-atom-2.4.3.28/cross/i686-aldebaran-linux-gnu/sysroot/ -pipe -fomit-frame-pointer -fno-align-jumps -fno-align-functions -fno-align-labels -fno-align-loops -m32 -mtune=generic -DCHECK_FUNCTION_EXISTS=pthread_create  -Wl,--as-needed,--sysroot,/home/nao/naoqi/ctc-linux32-atom-2.4.3.28/cross/i686-aldebaran-linux-gnu/sysroot/ CMakeFiles/cmTryCompileExec3132006204.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3132006204 -rdynamic -lpthread 
+make[1]: ディレクトリ `/home/nao/catkin_ws/src/robocup_packages/game_controller_bridge/src/naoqi/gcbridge/build-ros-naoqi/CMakeFiles/CMakeTmp' から出ます
+
+
+Determining if files pthread.h exist passed with the following output:
+Change Dir: /home/nao/catkin_ws/src/robocup_packages/game_controller_bridge/src/naoqi/gcbridge/build-ros-naoqi/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1664445451/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1664445451.dir/build.make CMakeFiles/cmTryCompileExec1664445451.dir/build
+make[1]: ディレクトリ `/home/nao/catkin_ws/src/robocup_packages/game_controller_bridge/src/naoqi/gcbridge/build-ros-naoqi/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/nao/catkin_ws/src/robocup_packages/game_controller_bridge/src/naoqi/gcbridge/build-ros-naoqi/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1664445451.dir/CheckIncludeFiles.c.o
+/home/nao/naoqi/ctc-linux32-atom-2.4.3.28/cross/bin/i686-aldebaran-linux-gnu-gcc   -DI_AM_A_ROBOT --sysroot /home/nao/naoqi/ctc-linux32-atom-2.4.3.28/cross/i686-aldebaran-linux-gnu/sysroot/ -pipe -fomit-frame-pointer -fno-align-jumps -fno-align-functions -fno-align-labels -fno-align-loops -m32 -mtune=generic    -o CMakeFiles/cmTryCompileExec1664445451.dir/CheckIncludeFiles.c.o   -c /home/nao/catkin_ws/src/robocup_packages/game_controller_bridge/src/naoqi/gcbridge/build-ros-naoqi/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec1664445451
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1664445451.dir/link.txt --verbose=1
+/home/nao/naoqi/ctc-linux32-atom-2.4.3.28/cross/bin/i686-aldebaran-linux-gnu-gcc     -DI_AM_A_ROBOT --sysroot /home/nao/naoqi/ctc-linux32-atom-2.4.3.28/cross/i686-aldebaran-linux-gnu/sysroot/ -pipe -fomit-frame-pointer -fno-align-jumps -fno-align-functions -fno-align-labels -fno-align-loops -m32 -mtune=generic   -Wl,--as-needed,--sysroot,/home/nao/naoqi/ctc-linux32-atom-2.4.3.28/cross/i686-aldebaran-linux-gnu/sysroot/ CMakeFiles/cmTryCompileExec1664445451.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec1664445451 -rdynamic 
+make[1]: ディレクトリ `/home/nao/catkin_ws/src/robocup_packages/game_controller_bridge/src/naoqi/gcbridge/build-ros-naoqi/CMakeFiles/CMakeTmp' から出ます
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /home/nao/catkin_ws/src/robocup_packages/game_controller_bridge/src/naoqi/gcbridge/build-ros-naoqi/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3381628828/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3381628828.dir/build.make CMakeFiles/cmTryCompileExec3381628828.dir/build
+make[1]: ディレクトリ `/home/nao/catkin_ws/src/robocup_packages/game_controller_bridge/src/naoqi/gcbridge/build-ros-naoqi/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/nao/catkin_ws/src/robocup_packages/game_controller_bridge/src/naoqi/gcbridge/build-ros-naoqi/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3381628828.dir/CheckFunctionExists.c.o
+/home/nao/naoqi/ctc-linux32-atom-2.4.3.28/cross/bin/i686-aldebaran-linux-gnu-gcc   -DI_AM_A_ROBOT --sysroot /home/nao/naoqi/ctc-linux32-atom-2.4.3.28/cross/i686-aldebaran-linux-gnu/sysroot/ -pipe -fomit-frame-pointer -fno-align-jumps -fno-align-functions -fno-align-labels -fno-align-loops -m32 -mtune=generic -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec3381628828.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3381628828
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3381628828.dir/link.txt --verbose=1
+/home/nao/naoqi/ctc-linux32-atom-2.4.3.28/cross/bin/i686-aldebaran-linux-gnu-gcc     -DI_AM_A_ROBOT --sysroot /home/nao/naoqi/ctc-linux32-atom-2.4.3.28/cross/i686-aldebaran-linux-gnu/sysroot/ -pipe -fomit-frame-pointer -fno-align-jumps -fno-align-functions -fno-align-labels -fno-align-loops -m32 -mtune=generic -DCHECK_FUNCTION_EXISTS=pthread_create  -Wl,--as-needed,--sysroot,/home/nao/naoqi/ctc-linux32-atom-2.4.3.28/cross/i686-aldebaran-linux-gnu/sysroot/ CMakeFiles/cmTryCompileExec3381628828.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3381628828 -rdynamic -lpthread 
+make[1]: ディレクトリ `/home/nao/catkin_ws/src/robocup_packages/game_controller_bridge/src/naoqi/gcbridge/build-ros-naoqi/CMakeFiles/CMakeTmp' から出ます
+
+
+Determining if files pthread.h exist passed with the following output:
+Change Dir: /home/nao/catkin_ws/src/robocup_packages/game_controller_bridge/src/naoqi/gcbridge/build-ros-naoqi/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1558319675/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1558319675.dir/build.make CMakeFiles/cmTryCompileExec1558319675.dir/build
+make[1]: ディレクトリ `/home/nao/catkin_ws/src/robocup_packages/game_controller_bridge/src/naoqi/gcbridge/build-ros-naoqi/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/nao/catkin_ws/src/robocup_packages/game_controller_bridge/src/naoqi/gcbridge/build-ros-naoqi/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1558319675.dir/CheckIncludeFiles.c.o
+/home/nao/naoqi/ctc-linux32-atom-2.4.3.28/cross/bin/i686-aldebaran-linux-gnu-gcc   -DI_AM_A_ROBOT --sysroot /home/nao/naoqi/ctc-linux32-atom-2.4.3.28/cross/i686-aldebaran-linux-gnu/sysroot/ -pipe -fomit-frame-pointer -fno-align-jumps -fno-align-functions -fno-align-labels -fno-align-loops -m32 -mtune=generic    -o CMakeFiles/cmTryCompileExec1558319675.dir/CheckIncludeFiles.c.o   -c /home/nao/catkin_ws/src/robocup_packages/game_controller_bridge/src/naoqi/gcbridge/build-ros-naoqi/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec1558319675
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1558319675.dir/link.txt --verbose=1
+/home/nao/naoqi/ctc-linux32-atom-2.4.3.28/cross/bin/i686-aldebaran-linux-gnu-gcc     -DI_AM_A_ROBOT --sysroot /home/nao/naoqi/ctc-linux32-atom-2.4.3.28/cross/i686-aldebaran-linux-gnu/sysroot/ -pipe -fomit-frame-pointer -fno-align-jumps -fno-align-functions -fno-align-labels -fno-align-loops -m32 -mtune=generic   -Wl,--as-needed,--sysroot,/home/nao/naoqi/ctc-linux32-atom-2.4.3.28/cross/i686-aldebaran-linux-gnu/sysroot/ CMakeFiles/cmTryCompileExec1558319675.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec1558319675 -rdynamic 
+make[1]: ディレクトリ `/home/nao/catkin_ws/src/robocup_packages/game_controller_bridge/src/naoqi/gcbridge/build-ros-naoqi/CMakeFiles/CMakeTmp' から出ます
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /home/nao/catkin_ws/src/robocup_packages/game_controller_bridge/src/naoqi/gcbridge/build-ros-naoqi/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec878876677/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec878876677.dir/build.make CMakeFiles/cmTryCompileExec878876677.dir/build
+make[1]: ディレクトリ `/home/nao/catkin_ws/src/robocup_packages/game_controller_bridge/src/naoqi/gcbridge/build-ros-naoqi/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/nao/catkin_ws/src/robocup_packages/game_controller_bridge/src/naoqi/gcbridge/build-ros-naoqi/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec878876677.dir/CheckFunctionExists.c.o
+/home/nao/naoqi/ctc-linux32-atom-2.4.3.28/cross/bin/i686-aldebaran-linux-gnu-gcc   -DI_AM_A_ROBOT --sysroot /home/nao/naoqi/ctc-linux32-atom-2.4.3.28/cross/i686-aldebaran-linux-gnu/sysroot/ -pipe -fomit-frame-pointer -fno-align-jumps -fno-align-functions -fno-align-labels -fno-align-loops -m32 -mtune=generic -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec878876677.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec878876677
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec878876677.dir/link.txt --verbose=1
+/home/nao/naoqi/ctc-linux32-atom-2.4.3.28/cross/bin/i686-aldebaran-linux-gnu-gcc     -DI_AM_A_ROBOT --sysroot /home/nao/naoqi/ctc-linux32-atom-2.4.3.28/cross/i686-aldebaran-linux-gnu/sysroot/ -pipe -fomit-frame-pointer -fno-align-jumps -fno-align-functions -fno-align-labels -fno-align-loops -m32 -mtune=generic -DCHECK_FUNCTION_EXISTS=pthread_create  -Wl,--as-needed,--sysroot,/home/nao/naoqi/ctc-linux32-atom-2.4.3.28/cross/i686-aldebaran-linux-gnu/sysroot/ CMakeFiles/cmTryCompileExec878876677.dir/CheckFunctionExists.c.o  -o cmTryCompileExec878876677 -rdynamic -lpthread 
+make[1]: ディレクトリ `/home/nao/catkin_ws/src/robocup_packages/game_controller_bridge/src/naoqi/gcbridge/build-ros-naoqi/CMakeFiles/CMakeTmp' から出ます
+
+
+Determining if files pthread.h exist passed with the following output:
+Change Dir: /home/nao/catkin_ws/src/robocup_packages/game_controller_bridge/src/naoqi/gcbridge/build-ros-naoqi/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3848711433/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3848711433.dir/build.make CMakeFiles/cmTryCompileExec3848711433.dir/build
+make[1]: ディレクトリ `/home/nao/catkin_ws/src/robocup_packages/game_controller_bridge/src/naoqi/gcbridge/build-ros-naoqi/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/nao/catkin_ws/src/robocup_packages/game_controller_bridge/src/naoqi/gcbridge/build-ros-naoqi/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3848711433.dir/CheckIncludeFiles.c.o
+/home/nao/naoqi/ctc-linux32-atom-2.4.3.28/cross/bin/i686-aldebaran-linux-gnu-gcc   -DI_AM_A_ROBOT --sysroot /home/nao/naoqi/ctc-linux32-atom-2.4.3.28/cross/i686-aldebaran-linux-gnu/sysroot/ -pipe -fomit-frame-pointer -fno-align-jumps -fno-align-functions -fno-align-labels -fno-align-loops -m32 -mtune=generic    -o CMakeFiles/cmTryCompileExec3848711433.dir/CheckIncludeFiles.c.o   -c /home/nao/catkin_ws/src/robocup_packages/game_controller_bridge/src/naoqi/gcbridge/build-ros-naoqi/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec3848711433
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3848711433.dir/link.txt --verbose=1
+/home/nao/naoqi/ctc-linux32-atom-2.4.3.28/cross/bin/i686-aldebaran-linux-gnu-gcc     -DI_AM_A_ROBOT --sysroot /home/nao/naoqi/ctc-linux32-atom-2.4.3.28/cross/i686-aldebaran-linux-gnu/sysroot/ -pipe -fomit-frame-pointer -fno-align-jumps -fno-align-functions -fno-align-labels -fno-align-loops -m32 -mtune=generic   -Wl,--as-needed,--sysroot,/home/nao/naoqi/ctc-linux32-atom-2.4.3.28/cross/i686-aldebaran-linux-gnu/sysroot/ CMakeFiles/cmTryCompileExec3848711433.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec3848711433 -rdynamic 
+make[1]: ディレクトリ `/home/nao/catkin_ws/src/robocup_packages/game_controller_bridge/src/naoqi/gcbridge/build-ros-naoqi/CMakeFiles/CMakeTmp' から出ます
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /home/nao/catkin_ws/src/robocup_packages/game_controller_bridge/src/naoqi/gcbridge/build-ros-naoqi/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3436586527/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3436586527.dir/build.make CMakeFiles/cmTryCompileExec3436586527.dir/build
+make[1]: ディレクトリ `/home/nao/catkin_ws/src/robocup_packages/game_controller_bridge/src/naoqi/gcbridge/build-ros-naoqi/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/nao/catkin_ws/src/robocup_packages/game_controller_bridge/src/naoqi/gcbridge/build-ros-naoqi/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3436586527.dir/CheckFunctionExists.c.o
+/home/nao/naoqi/ctc-linux32-atom-2.4.3.28/cross/bin/i686-aldebaran-linux-gnu-gcc   -DI_AM_A_ROBOT --sysroot /home/nao/naoqi/ctc-linux32-atom-2.4.3.28/cross/i686-aldebaran-linux-gnu/sysroot/ -pipe -fomit-frame-pointer -fno-align-jumps -fno-align-functions -fno-align-labels -fno-align-loops -m32 -mtune=generic -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec3436586527.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3436586527
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3436586527.dir/link.txt --verbose=1
+/home/nao/naoqi/ctc-linux32-atom-2.4.3.28/cross/bin/i686-aldebaran-linux-gnu-gcc     -DI_AM_A_ROBOT --sysroot /home/nao/naoqi/ctc-linux32-atom-2.4.3.28/cross/i686-aldebaran-linux-gnu/sysroot/ -pipe -fomit-frame-pointer -fno-align-jumps -fno-align-functions -fno-align-labels -fno-align-loops -m32 -mtune=generic -DCHECK_FUNCTION_EXISTS=pthread_create  -Wl,--as-needed,--sysroot,/home/nao/naoqi/ctc-linux32-atom-2.4.3.28/cross/i686-aldebaran-linux-gnu/sysroot/ CMakeFiles/cmTryCompileExec3436586527.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3436586527 -rdynamic -lpthread 
+make[1]: ディレクトリ `/home/nao/catkin_ws/src/robocup_packages/game_controller_bridge/src/naoqi/gcbridge/build-ros-naoqi/CMakeFiles/CMakeTmp' から出ます
+
+
+Determining if files pthread.h exist passed with the following output:
+Change Dir: /home/nao/catkin_ws/src/robocup_packages/game_controller_bridge/src/naoqi/gcbridge/build-ros-naoqi/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2077493795/fast"
+make[1]: ディレクトリ `/home/nao/catkin_ws/src/robocup_packages/game_controller_bridge/src/naoqi/gcbridge/build-ros-naoqi/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2077493795.dir/build.make CMakeFiles/cmTryCompileExec2077493795.dir/build
+make[2]: ディレクトリ `/home/nao/catkin_ws/src/robocup_packages/game_controller_bridge/src/naoqi/gcbridge/build-ros-naoqi/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/nao/catkin_ws/src/robocup_packages/game_controller_bridge/src/naoqi/gcbridge/build-ros-naoqi/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2077493795.dir/CheckIncludeFiles.c.o
+/home/nao/naoqi/ctc-linux32-atom-2.4.3.28/cross/bin/i686-aldebaran-linux-gnu-gcc   -DI_AM_A_ROBOT --sysroot /home/nao/naoqi/ctc-linux32-atom-2.1.4.13/cross/i686-aldebaran-linux-gnu/sysroot/ -pipe -fomit-frame-pointer -fno-align-jumps -fno-align-functions -fno-align-labels -fno-align-loops -m32 -mtune=generic    -o CMakeFiles/cmTryCompileExec2077493795.dir/CheckIncludeFiles.c.o   -c /home/nao/catkin_ws/src/robocup_packages/game_controller_bridge/src/naoqi/gcbridge/build-ros-naoqi/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec2077493795
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2077493795.dir/link.txt --verbose=1
+/home/nao/naoqi/ctc-linux32-atom-2.4.3.28/cross/bin/i686-aldebaran-linux-gnu-gcc     -DI_AM_A_ROBOT --sysroot /home/nao/naoqi/ctc-linux32-atom-2.1.4.13/cross/i686-aldebaran-linux-gnu/sysroot/ -pipe -fomit-frame-pointer -fno-align-jumps -fno-align-functions -fno-align-labels -fno-align-loops -m32 -mtune=generic   -Wl,--as-needed,--sysroot,/home/nao/naoqi/ctc-linux32-atom-2.1.4.13/cross/i686-aldebaran-linux-gnu/sysroot/ CMakeFiles/cmTryCompileExec2077493795.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec2077493795 -rdynamic 
+make[2]: ディレクトリ `/home/nao/catkin_ws/src/robocup_packages/game_controller_bridge/src/naoqi/gcbridge/build-ros-naoqi/CMakeFiles/CMakeTmp' から出ます
+make[1]: ディレクトリ `/home/nao/catkin_ws/src/robocup_packages/game_controller_bridge/src/naoqi/gcbridge/build-ros-naoqi/CMakeFiles/CMakeTmp' から出ます
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /home/nao/catkin_ws/src/robocup_packages/game_controller_bridge/src/naoqi/gcbridge/build-ros-naoqi/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2532744251/fast"
+make[1]: ディレクトリ `/home/nao/catkin_ws/src/robocup_packages/game_controller_bridge/src/naoqi/gcbridge/build-ros-naoqi/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2532744251.dir/build.make CMakeFiles/cmTryCompileExec2532744251.dir/build
+make[2]: ディレクトリ `/home/nao/catkin_ws/src/robocup_packages/game_controller_bridge/src/naoqi/gcbridge/build-ros-naoqi/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/nao/catkin_ws/src/robocup_packages/game_controller_bridge/src/naoqi/gcbridge/build-ros-naoqi/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2532744251.dir/CheckFunctionExists.c.o
+/home/nao/naoqi/ctc-linux32-atom-2.4.3.28/cross/bin/i686-aldebaran-linux-gnu-gcc   -DI_AM_A_ROBOT --sysroot /home/nao/naoqi/ctc-linux32-atom-2.1.4.13/cross/i686-aldebaran-linux-gnu/sysroot/ -pipe -fomit-frame-pointer -fno-align-jumps -fno-align-functions -fno-align-labels -fno-align-loops -m32 -mtune=generic -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec2532744251.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2532744251
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2532744251.dir/link.txt --verbose=1
+/home/nao/naoqi/ctc-linux32-atom-2.4.3.28/cross/bin/i686-aldebaran-linux-gnu-gcc     -DI_AM_A_ROBOT --sysroot /home/nao/naoqi/ctc-linux32-atom-2.1.4.13/cross/i686-aldebaran-linux-gnu/sysroot/ -pipe -fomit-frame-pointer -fno-align-jumps -fno-align-functions -fno-align-labels -fno-align-loops -m32 -mtune=generic -DCHECK_FUNCTION_EXISTS=pthread_create  -Wl,--as-needed,--sysroot,/home/nao/naoqi/ctc-linux32-atom-2.1.4.13/cross/i686-aldebaran-linux-gnu/sysroot/ CMakeFiles/cmTryCompileExec2532744251.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2532744251 -rdynamic -lpthread 
+make[2]: ディレクトリ `/home/nao/catkin_ws/src/robocup_packages/game_controller_bridge/src/naoqi/gcbridge/build-ros-naoqi/CMakeFiles/CMakeTmp' から出ます
+make[1]: ディレクトリ `/home/nao/catkin_ws/src/robocup_packages/game_controller_bridge/src/naoqi/gcbridge/build-ros-naoqi/CMakeFiles/CMakeTmp' から出ます
+
+

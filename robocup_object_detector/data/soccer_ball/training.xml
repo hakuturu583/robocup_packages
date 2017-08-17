@@ -1,0 +1,196 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<?xml-stylesheet type='text/xsl' href='image_metadata_stylesheet.xsl'?>
+<dataset>
+<name>imglab dataset</name>
+<comment>Created by imglab tool.</comment>
+<images>
+  <image file='frame0000.jpg'>
+    <box top='168' left='180' width='33' height='34'>
+      <label>ball</label>
+    </box>
+  </image>
+  <image file='frame0001.jpg'>
+    <box top='67' left='99' width='37' height='36'>
+      <label>ball</label>
+    </box>
+  </image>
+  <image file='frame0002.jpg'>
+    <box top='69' left='86' width='38' height='39'>
+      <label>ball</label>
+    </box>
+  </image>
+  <image file='frame0003.jpg'>
+    <box top='79' left='71' width='46' height='46'>
+      <label>ball</label>
+    </box>
+  </image>
+  <image file='frame0004.jpg'>
+    <box top='81' left='51' width='49' height='46'>
+      <label>ball</label>
+    </box>
+  </image>
+  <image file='frame0005.jpg'>
+    <box top='81' left='49' width='46' height='47'>
+      <label>ball</label>
+    </box>
+  </image>
+  <image file='frame0006.jpg'>
+    <box top='50' left='106' width='44' height='44'>
+      <label>ball</label>
+    </box>
+  </image>
+  <image file='frame0007.jpg'>
+    <box top='54' left='98' width='42' height='41'>
+      <label>ball</label>
+    </box>
+  </image>
+  <image file='frame0008.jpg'>
+    <box top='138' left='103' width='72' height='77'>
+      <label>ball</label>
+    </box>
+  </image>
+  <image file='frame0009.jpg'>
+  </image>
+  <image file='frame0010.jpg'>
+  </image>
+  <image file='frame0011.jpg'>
+  </image>
+  <image file='frame0012.jpg'>
+    <box top='117' left='61' width='62' height='62'>
+      <label>ball</label>
+    </box>
+  </image>
+  <image file='frame0013.jpg'>
+    <box top='106' left='121' width='61' height='62'>
+      <label>ball</label>
+    </box>
+  </image>
+  <image file='frame0014.jpg'>
+    <box top='106' left='124' width='62' height='61'>
+      <label>ball</label>
+    </box>
+  </image>
+  <image file='frame0015.jpg'>
+  </image>
+  <image file='frame0016.jpg'>
+    <box top='65' left='32' width='32' height='28'>
+      <label>ball</label>
+    </box>
+  </image>
+  <image file='frame0017.jpg'>
+    <box top='65' left='49' width='36' height='37'>
+      <label>ball</label>
+    </box>
+  </image>
+  <image file='frame0018.jpg'>
+  </image>
+  <image file='frame0019.jpg'>
+  </image>
+  <image file='frame0020.jpg'>
+  </image>
+  <image file='frame0021.jpg'>
+  </image>
+  <image file='frame0022.jpg'>
+  </image>
+  <image file='frame0023.jpg'>
+  </image>
+  <image file='frame0024.jpg'>
+  </image>
+  <image file='frame0025.jpg'>
+  </image>
+  <image file='frame0026.jpg'>
+  </image>
+  <image file='frame0027.jpg'>
+  </image>
+  <image file='frame0028.jpg'>
+  </image>
+  <image file='frame0029.jpg'>
+    <box top='34' left='19' width='34' height='33'>
+      <label>ball</label>
+    </box>
+  </image>
+  <image file='frame0030.jpg'>
+    <box top='33' left='19' width='36' height='36'>
+      <label>ball</label>
+    </box>
+  </image>
+  <image file='frame0031.jpg'>
+  </image>
+  <image file='frame0032.jpg'>
+  </image>
+  <image file='frame0033.jpg'>
+    <box top='37' left='92' width='33' height='32'>
+      <label>ball</label>
+    </box>
+  </image>
+  <image file='frame0034.jpg'>
+    <box top='36' left='91' width='35' height='34'>
+      <label>ball</label>
+    </box>
+  </image>
+  <image file='frame0035.jpg'>
+  </image>
+  <image file='frame0036.jpg'>
+  </image>
+  <image file='frame0037.jpg'>
+  </image>
+  <image file='frame0038.jpg'>
+  </image>
+  <image file='frame0039.jpg'>
+  </image>
+  <image file='frame0040.jpg'>
+  </image>
+  <image file='frame0041.jpg'>
+    <box top='50' left='78' width='42' height='36'>
+      <label>ball</label>
+    </box>
+  </image>
+  <image file='frame0042.jpg'>
+  </image>
+  <image file='frame0043.jpg'>
+  </image>
+  <image file='frame0044.jpg'>
+  </image>
+  <image file='frame0045.jpg'>
+  </image>
+  <image file='frame0046.jpg'>
+  </image>
+  <image file='frame0047.jpg'>
+    <box top='59' left='54' width='44' height='45'>
+      <label>ball</label>
+    </box>
+  </image>
+  <image file='frame0048.jpg'>
+  </image>
+  <image file='frame0049.jpg'>
+  </image>
+  <image file='frame0050.jpg'>
+  </image>
+  <image file='frame0051.jpg'>
+  </image>
+  <image file='frame0052.jpg'>
+  </image>
+  <image file='frame0053.jpg'>
+  </image>
+  <image file='frame0054.jpg'>
+  </image>
+  <image file='frame0055.jpg'>
+    <box top='98' left='21' width='56' height='52'>
+      <label>ball</label>
+    </box>
+  </image>
+  <image file='frame0056.jpg'>
+  </image>
+  <image file='frame0057.jpg'>
+    <box top='92' left='12' width='51' height='50'>
+      <label>ball</label>
+    </box>
+  </image>
+  <image file='frame0058.jpg'>
+  </image>
+  <image file='frame0059.jpg'>
+  </image>
+  <image file='frame0060.jpg'>
+  </image>
+</images>
+</dataset>

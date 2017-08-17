@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/nao/catkin_ws/src/robocup_packages/game_controller_bridge/src/naoqi/gcbridge/build-naoqi-sdk/devel/setup.sh

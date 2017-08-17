@@ -1,0 +1,78 @@
+# Here is the list of modules loaded in NaoQi core process.
+
+# You should not edit this file.
+
+# If you need to load your module at startup, create a file
+# in /home/nao/naoqi/preferences/autoload.ini looking like:
+
+#  [user]
+#  /the/full/path/to/your/libyourmodule.so
+#
+# Note: to use urbi, you should use:
+#
+#  [user]
+#  /usr/lib/naoqi/liburbistarter.so
+#
+[core]
+albase
+preferencemanager
+framemanager
+logmanager
+alservicemanager
+aldebug
+
+[extra]
+notificationmanager
+dcm_hal
+expressiveness
+alresourcemanager
+robotmodel
+aldiagnosis
+sensors
+albodytemperature
+motion
+touch
+robotposture
+motionrecorder
+leds
+alworldrepresentation
+alvideodevice
+darknessdetection
+backlightingdetection
+photocapture
+videorecorder
+alvisualcompass
+visualspacehistory
+alsystem
+packagemanager
+alusersession
+
+# modularity and filters
+modularityperception
+audiofilterloader
+
+audiodevice
+audiorecorder
+audioout
+speechrecognition
+voiceemotionanalysis
+albattery
+alchestbutton
+mecalogger
+pythonbridge
+launcher
+behaviormanager
+memorywatcher
+albonjour
+infrared
+altelepathe
+allocalization
+alpanoramacompass
+robothealthmonitor
+
+# audition modules using modularity
+sounddetection
+soundlocalization
+
+#add on libraries
+/home/nao/lib/libgamectrl.so

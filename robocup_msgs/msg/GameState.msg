@@ -1,0 +1,3 @@
+robocup_msgs/GameInfo game_info
+robocup_msgs/PenaltyInfo penalty_info
+uint8 packet_number

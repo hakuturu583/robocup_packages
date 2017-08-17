@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch>
+  <arg name="nao_ip" value="$(optenv NAO_IP 127.0.0.1)" />
+  <arg name="roscore_ip" value="$(optenv ROSCORE_IP 127.0.0.1)" />
+  <param name="nao_ip" value="$(arg nao_ip)" type="str"/>
+  <param name="roscore_ip" value="$(arg roscore_ip)" type="str"/>
+
+  <param name="robot_description" textfile="$(find nao_description)/urdf/naoV40_generated_urdf/nao.urdf" />
+
+  <include file="$(find freenect_launch)/launch/freenect.launch" ns="kinect"/>
+
+  <node name="rviz" pkg="rviz" type="rviz" args="-d $(find robocup_launcher)/config/nao_kinect.rviz" output="log" respawn="false">
+  </node>
+
+  <include file="$(find robocup_launcher)/launch/naoqi_systems.launch">
+    <arg name="nao_ip" value="$(arg nao_ip)" />
+  </include>
+
+<!--
+  <node name="pointcloud_to_laserscan_node" pkg="pointcloud_to_laserscan" type="pointcloud_to_laserscan_node" args="" output="screen" respawn="true">
+    <remap from="cloud_in" to="/kinect/camera/depth/points"/>
+  </node>
+-->
+  <node name="rtabmap" pkg="rtabmap_ros" type="rtabmap">
+     <param name="RGBD/OptimizeIterations" type="string" value="50"/>
+     <param name="~subscribe_scan_cloud" value="true" type="bool"/>
+     <param name="~subscribe_depth" value="false" type="bool"/>
+     <param name="~subscribe_stereo" value="false" type="bool"/>
+     <param name="odom_frame_id" value="odom" type="str"/>
+     <remap from="/scan_cloud" to="/kinect/camera/depth_registered/points" />
+  </node>
+
+  <include file="$(find robocup_action_control)/launch/action_controller.launch">
+  </include>
+
+  <include file="$(find robocup_action_control)/launch/flight_stick.launch">
+  </include>
+
+  <node pkg="tf" type="static_transform_publisher" name="kinect_frame_publisher" args="0.045 0 0.085 0 0 0 CameraTop_frame camera_link 100" />
+
+</launch>

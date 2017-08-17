@@ -1,0 +1,6 @@
+1.send libgamectrl.so to Nao
+2.add libgamectrl.so to autoload.ini
+
+<<reference>>
+http://doc.aldebaran.com/1-14/dev/tools/naoqi.html
+https://github.com/bhuman/GameController

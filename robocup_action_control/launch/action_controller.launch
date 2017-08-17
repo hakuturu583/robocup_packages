@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch>
+  <arg name="nao_ip" value="$(optenv NAO_IP 127.0.0.1)" />
+  <arg name="roscore_ip" value="$(optenv ROSCORE_IP 127.0.0.1)" />
+  <param name="roscore_ip" value="$(arg roscore_ip)" type="str"/>
+  <param name="nao_ip" value="$(arg nao_ip)" type="str"/>
+
+  <group ns="robocup_action_control">
+    <node name="nao_head_controler" pkg="robocup_action_control" type="head_controler.py" args="" output="screen" respawn="true">
+    </node>
+
+    <node name="request_kick_service_server" pkg="robocup_action_control" type="request_kick.py" args="" output="screen" respawn="false">
+      <remap from="/robocup_action_control/event" to="/event" />
+    </node>
+
+    <node name="naoqi_robocup_walker" pkg="robocup_action_control" type="naoqi_robocup_walker.py" args="" output="screen" respawn="true">
+      <remap from="/robocup_action_control/event" to="/event" />
+    </node>
+  </group>
+
+</launch>

@@ -1,0 +1,90 @@
+<launch>
+  <env name="PYTHONPATH" value="$(env PYTHONPATH)" />
+  <arg name="nao_ip" default="$(optenv NAO_IP 127.0.0.1)" />
+  <arg name="nao_port" default="$(optenv NAO_PORT 9559)" />
+  <arg name="roscore_ip" default="$(optenv ROS_IP 127.0.0.1)" />
+  <arg name="network_interface" default="$(optenv NETWORK_INTERFACE eth0)" />
+
+  <node pkg="diagnostic_aggregator" type="aggregator_node" name="diag_agg" clear_params="true">
+    <rosparam command="load"  file="$(find nao_bringup)/config/nao_analysers.yaml" />
+  </node>
+
+  <!-- upload nao robot model V40 by default-->
+  <include file="$(find nao_description)/launch/robot_state_publisher.launch" >
+    <arg name="version"       value="V40" />
+  </include>
+
+  <!-- publish joint states and basic actuators -->
+  <node pkg="naoqi_driver_py" type="naoqi_logger.py" name="nao_logger" args="--pip=$(arg nao_ip) --pport=$(arg nao_port)" />
+
+  <node pkg="naoqi_driver_py" type="naoqi_joint_states.py" name="naoqi_joint_states" required="true" args="--pip=$(arg nao_ip) --pport=$(arg nao_port)">
+      <param name="use_odometry" type="bool" value="true" />
+  </node>
+
+  <!-- launch pose manager -->
+  <include file="$(find naoqi_pose)/launch/pose_manager.launch" >
+    <arg name="nao_ip"        value="$(arg nao_ip)" />
+    <arg name="nao_port"      value="$(arg nao_port)" />
+  </include>
+
+  <!-- Specify here all dependent settings (default top) -->
+  <include file="$(find naoqi_sensors_py)/launch/camera.launch" ns="nao_robot/camera/top" >
+    <arg name="nao_ip"        value="$(arg nao_ip)" />
+    <arg name="resolution" default="2" />
+  </include>
+  <include file="$(find naoqi_sensors_py)/launch/camera.launch" ns="nao_robot/camera/bottom" >
+    <arg name="nao_ip"        value="$(arg nao_ip)" />
+    <arg name="source"        value="1" />
+    <arg name="resolution" default="2" />
+  </include>
+
+  <!-- Load left and right sonar -->
+  <include file="$(find naoqi_sensors_py)/launch/sonar.launch" ns="nao_robot/sonar/left" >
+    <arg name="nao_ip"        value="$(arg nao_ip)" />
+    <arg name="memory_key"    value="Device/SubDeviceList/US/Left/Sensor/Value" />
+    <arg name="frame_id"      value="LSonar_frame" />
+  </include>
+  <include file="$(find naoqi_sensors_py)/launch/sonar.launch" ns="nao_robot/sonar/right" >
+    <arg name="nao_ip"        value="$(arg nao_ip)" />
+    <arg name="memory_key"    value="Device/SubDeviceList/US/Right/Sensor/Value" />
+    <arg name="frame_id"      value="RSonar_frame" />
+  </include>
+
+  <!-- Specify here all dependent settings (default top) -->
+  <include file="$(find naoqi_sensors_py)/launch/microphone.launch" ns="nao_robot/microphone" >
+    <arg name="nao_ip"        value="$(arg nao_ip)" />
+  </include>
+
+  <node name="chest_button_publisher" pkg="robocup_sensor_watcher" type="naoqi_chest_button_publisher.py" args="" output="screen" respawn="true" ns="nao_robot">
+    <param name="nao_ip" value="$(arg nao_ip)" type="str"/>
+  </node>
+
+<!--
+  <node name="naoqi_zmp_publisher" pkg="robocup_sensor_watcher" type="naoqi_zmp_publisher.py" args="" output="screen" respawn="true">
+  </node>
+-->
+
+  <node pkg="nao_apps" type="nao_diagnostic_updater.py" name="nao_diagnostic_updater" required="true" args="--pip=$(arg nao_ip) --pport=$(arg nao_port)"  />
+
+  <group ns="nao_robot">
+    <node pkg="nao_apps" type="nao_speech.py" name="nao_speech" required="true" args="--pip=$(arg nao_ip) --pport=$(arg nao_port)"  />
+
+    <node pkg="nao_apps" type="nao_tactile.py" name="nao_tactile" required="true" args="--pip=$(arg nao_ip) --pport=$(arg nao_port)"  />
+
+    <node pkg="nao_apps" type="nao_leds.py" name="nao_leds" required="true" args="--pip=$(arg nao_ip) --pport=$(arg nao_port)"  />
+  <!--
+    <node pkg="naoqi_dcm_driver" type="naoqi_dcm_driver" name="naoqi_dcm_driver" respawn="true" output="screen" >
+      <rosparam file="$(find nao_dcm_bringup)/config/nao_dcm.yaml" command="load"/>
+      <param name="BodyType"            value="H25"/>
+      <param name="RobotIP"             value="$(arg nao_ip)" />
+      <param name="RobotPort"           value="$(arg nao_port)" />
+      <param name="DriverBrokerIP"      value="$(arg roscore_ip)" />
+      <param name="network_interface"   value="$(arg network_interface)" />
+      <param name="motor_groups"        value="Body" />
+      <param name="Prefix"              value="nao_dcm" />
+      <param name="use_dcm"             value="false" />
+    </node>
+  -->
+
+  </group>
+</launch>
