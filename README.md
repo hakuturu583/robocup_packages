@@ -15,13 +15,11 @@ This repogitory is developing by Masaya Kataoka(masaya.kataoka@ams.eng.osaka-u.a
 
 * Summary of set up  
 1.install ROS(http://wiki.ros.org/indigo/Installation/Ubuntu)  
-2.([create catkin_ws](http://wiki.ros.org/catkin/Tutorials/create_a_workspace))  
+2.[create catkin_ws](http://wiki.ros.org/catkin/Tutorials/create_a_workspace)  
 3.cd catkin_ws  
-4.git clone git@bitbucket.org:joitechspl/robocup_packages.git  
+4.git clone git@github.com:hakuturu583/robocup_packages.git  
 5.catkin_make  
 6.roslaunch robocup_launcher nao_navigation.launch
-※error happens when downloading camera_info_manager_py and octomap  
-comment out version tag in .rosinstall file
 
 ### How to use? ###
 * How to run  
